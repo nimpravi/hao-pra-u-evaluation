@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software or its baselines, please cite the paper below."
+title: "Hierarchical Agentic Orchestration for Cross-Domain Zero-Touch Slicing: A Pre-Registered Evaluation Against Tuned Baselines for 6G"
+authors:
+  - family-names: "Hegde"
+    given-names: "Praveen"
+    orcid: "https://orcid.org/0009-0004-7395-3491"
+year: 2026
+# Fill in once known:
+# journal: "IEEE Transactions on Network and Service Management"
+# doi: "10.1109/TNSM.XXXX.XXXXXXX"
+# status: to appear
+# Zenodo software archive DOI (fill in after archiving the repo):
+# doi: "XX.XXXX/zenodo.XXXXXXX"

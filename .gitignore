@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.toc
+
+# Run scratch (checkpoints regenerate; keep committed results/ though)
+**/checkpoints/
+**/exp3_results/
+**/shift_results/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Manuscript kept local; not committed (publisher copyright)
+manuscript/
+provenance/
