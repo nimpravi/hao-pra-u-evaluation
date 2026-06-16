@@ -4,7 +4,7 @@
      the badge Markdown Zenodo gives you, replacing the two placeholders below.
      Use the CONCEPT DOI (always resolves to the latest version), not a
      version-specific DOI. -->
-<!--[![DOI](https://zenodo.org/badge/DOI/XX.XXXX/zenodo.XXXXXXX.svg)](https://doi.org/XX.XXXX/zenodo.XXXXXXX) -->
+[![DOI](https://zenodo.org/badge/1271378100.svg)](https://doi.org/10.5281/zenodo.20721049)
 
 This repository contains the simulator, pre-registrations, run/analysis
 harnesses, and committed result files for a pre-registered
@@ -153,11 +153,8 @@ and the archived software.
 
 > Hegde, P. (2026). *Hierarchical Agentic Orchestration for
 > Cross-Domain Zero-Touch Slicing: evaluation code, pre-registrations, and
-> data* [Software]. Zenodo. https://doi.org/XX.XXXX/zenodo.XXXXXXX
+> data* [Software]. Zenodo. https://doi.org/10.5281/zenodo.20721049
 
-<!-- Replace XX.XXXX/zenodo.XXXXXXX above and in the badge with the DOI
-     Zenodo assigns after you archive the repo. The concept DOI cites all
-     versions; a version DOI cites one specific release. -->
 
 ## License
 
