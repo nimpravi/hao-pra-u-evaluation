@@ -1,0 +1,28 @@
+# SHA-256 of frozen artifacts, pinned per pre-registration.
+#
+# The frozen simulator (hao_pra_u_sim.py) is the SAME byte-identical file
+# across all three studies; it is co-located (vendored) with each study's
+# harness so the pinned hash holds at every import site. Each copy is listed
+# explicitly below so every study has an independently checkable line.
+#
+# Verify ALL artifacts at once, from the repo root:
+#   Linux/macOS:  sha256sum -c preregistrations/hashes.txt
+# Or a single file:
+#   Linux/macOS:  sha256sum <file>
+#   Windows:      certutil -hashfile <file> SHA256
+#
+# Enforcement note:
+#   * Experiment 3 (run_experiment3.py) verifies these hashes AT RUNTIME and
+#     aborts on mismatch.
+#   * Experiments 1 and 2 (sweep_driver.py, shift_driver.py) do NOT self-check;
+#     verify their sim copy manually against the line below before running.
+
+# --- Experiment 1: regime sweep ---
+24f20b81ad19edbd522c72596d8526218cd8274a3791679e8af0897accdf3a3d  studies/regime_sweep/hao_pra_u_sim.py
+
+# --- Experiment 2: regime shift ---
+24f20b81ad19edbd522c72596d8526218cd8274a3791679e8af0897accdf3a3d  studies/regime_shift/hao_pra_u_sim.py
+
+# --- Experiment 3: predictability sweep ---
+24f20b81ad19edbd522c72596d8526218cd8274a3791679e8af0897accdf3a3d  studies/predictability/hao_pra_u_sim.py
+d2c8f28c5220e2f60b7fc3d5c0c28a154757649b20a595df2ef74905264f7aa4  studies/predictability/precursor_traffic.py
