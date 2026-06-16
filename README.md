@@ -39,9 +39,9 @@ rather than a claim of good faith. See `preregistrations/` and
 ```
 hao-pra-u-evaluation/
 ├── preregistrations/        # frozen study designs + pinned artifact hashes
-│   ├── SWEEP_PREREGISTRATION.md          # Experiment 1 (dated 2026-06-11)
-│   ├── SHIFT_STUDY_PREREGISTRATION.md    # Experiment 2 (dated 2026-06-12)
-│   ├── EXPERIMENT3_PREREGISTRATION.md    # Experiment 3 (dated 2026-06-13)
+│   ├── SWEEP_PREREGISTRATION.md          # Experiment 1
+│   ├── SHIFT_STUDY_PREREGISTRATION.md    # Experiment 2
+│   ├── EXPERIMENT3_PREREGISTRATION.md    # Experiment 3
 │   └── hashes.txt
 ├── scripts/                 # shared analysis (Welch significance test, etc.)
 ├── studies/
