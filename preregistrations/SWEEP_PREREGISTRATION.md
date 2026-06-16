@@ -1,5 +1,5 @@
 # PRE-REGISTRATION — Resource-cost / load sweep (extension of DESIGN_FREEZE)
-Status: registered BEFORE execution. Date: 2026-06-11.
+Status: registered BEFORE execution.
 
 ## Disclosure of known results
 One grid point has already been observed (the frozen 10-seed run):

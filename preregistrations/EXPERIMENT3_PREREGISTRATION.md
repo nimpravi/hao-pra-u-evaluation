@@ -1,6 +1,6 @@
 # PRE-REGISTRATION — Experiment 3: Predictability Sweep (Burst-Precursor Traffic)
 
-**Status:** Registered BEFORE implementation and execution. Date: 2026-06-13.
+**Status:** Registered BEFORE implementation and execution.
 Prerequisites: DESIGN_FREEZE_v2 (method); Phase B sweep and regime-shift
 study closed. The freeze timestamp is witnessed by this file's commit in the
 repository history, which precedes the commit of any Experiment-3 result.
