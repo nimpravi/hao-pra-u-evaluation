@@ -4,7 +4,7 @@
      the badge Markdown Zenodo gives you, replacing the two placeholders below.
      Use the CONCEPT DOI (always resolves to the latest version), not a
      version-specific DOI. -->
-[![DOI](https://zenodo.org/badge/DOI/XX.XXXX/zenodo.XXXXXXX.svg)](https://doi.org/XX.XXXX/zenodo.XXXXXXX)
+<!--[![DOI](https://zenodo.org/badge/DOI/XX.XXXX/zenodo.XXXXXXX.svg)](https://doi.org/XX.XXXX/zenodo.XXXXXXX) -->
 
 This repository contains the simulator, pre-registrations, run/analysis
 harnesses, and committed result files for a pre-registered
