@@ -1,0 +1,101 @@
+{
+ "summary": {
+  "win_levels": [],
+  "is_contiguous_upset": false,
+  "threshold_p_star": null,
+  "verdict": "H0 supported: HAO-PRA-U does not achieve a decisive regime win at any predictability level. The negative result is robust to the generality objection.",
+  "tripwire": ""
+ },
+ "levels": {
+  "0.0": {
+   "mean_composite": {
+    "Centralized Orchestration": 0.062,
+    "Centralized Predictive": 0.8299,
+    "Flat-Agent Allocation": 0.7721,
+    "HAO-PRA-U": 0.8243,
+    "Reactive Allocation": 0.8385,
+    "Static Allocation": 0.9219
+   },
+   "winner": "Static Allocation",
+   "runner_up": "Reactive Allocation",
+   "p_vs_runner": 0.0,
+   "decisive": true,
+   "hao_pra_u_wins": false
+  },
+  "0.2": {
+   "mean_composite": {
+    "Centralized Orchestration": 0.0596,
+    "Centralized Predictive": 0.8276,
+    "Flat-Agent Allocation": 0.7679,
+    "HAO-PRA-U": 0.7892,
+    "Reactive Allocation": 0.8323,
+    "Static Allocation": 0.9117
+   },
+   "winner": "Static Allocation",
+   "runner_up": "Reactive Allocation",
+   "p_vs_runner": 0.0,
+   "decisive": true,
+   "hao_pra_u_wins": false
+  },
+  "0.4": {
+   "mean_composite": {
+    "Centralized Orchestration": 0.0572,
+    "Centralized Predictive": 0.8248,
+    "Flat-Agent Allocation": 0.7735,
+    "HAO-PRA-U": 0.814,
+    "Reactive Allocation": 0.8315,
+    "Static Allocation": 0.9022
+   },
+   "winner": "Static Allocation",
+   "runner_up": "Reactive Allocation",
+   "p_vs_runner": 0.0,
+   "decisive": true,
+   "hao_pra_u_wins": false
+  },
+  "0.6": {
+   "mean_composite": {
+    "Centralized Orchestration": 0.0571,
+    "Centralized Predictive": 0.8234,
+    "Flat-Agent Allocation": 0.7813,
+    "HAO-PRA-U": 0.7618,
+    "Reactive Allocation": 0.8277,
+    "Static Allocation": 0.8822
+   },
+   "winner": "Static Allocation",
+   "runner_up": "Reactive Allocation",
+   "p_vs_runner": 0.00025,
+   "decisive": true,
+   "hao_pra_u_wins": false
+  },
+  "0.8": {
+   "mean_composite": {
+    "Centralized Orchestration": 0.0572,
+    "Centralized Predictive": 0.8224,
+    "Flat-Agent Allocation": 0.7958,
+    "HAO-PRA-U": 0.7785,
+    "Reactive Allocation": 0.8246,
+    "Static Allocation": 0.8637
+   },
+   "winner": "Static Allocation",
+   "runner_up": "Reactive Allocation",
+   "p_vs_runner": 0.00999,
+   "decisive": true,
+   "hao_pra_u_wins": false
+  },
+  "1.0": {
+   "mean_composite": {
+    "Centralized Orchestration": 0.0595,
+    "Centralized Predictive": 0.826,
+    "Flat-Agent Allocation": 0.8104,
+    "HAO-PRA-U": 0.7906,
+    "Reactive Allocation": 0.8265,
+    "Static Allocation": 0.8516
+   },
+   "winner": "Static Allocation",
+   "runner_up": "Reactive Allocation",
+   "p_vs_runner": 0.10521,
+   "decisive": false,
+   "hao_pra_u_wins": false
+  }
+ }
+}

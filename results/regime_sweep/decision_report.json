@@ -1,0 +1,589 @@
+{
+ "summary": {
+  "hao_decisive_wins": [],
+  "largest_contiguous_block": 0,
+  "GATE1_PASS": false
+ },
+ "cells": {
+  "wE=0.0188,h=1.4": {
+   "composite_means": {
+    "Centralized Orchestration": 0.1144,
+    "Centralized Predictive": 0.5381,
+    "Flat-Agent Allocation": 0.6753,
+    "HAO-PRA-U": 0.5186,
+    "Reactive Allocation": 0.4269,
+    "Static Allocation": 0.7917
+   },
+   "winner": "Static Allocation",
+   "runner_up": "Flat-Agent Allocation",
+   "p_vs_runner": 2e-05,
+   "decisive": true,
+   "pareto_vs": "Static Allocation",
+   "pareto": {
+    "sla_violation": {
+     "hao": 0.052933333333333346,
+     "base": 0.016800000000000002,
+     "p": 0.00020736234889194018,
+     "better": false
+    },
+    "utilization": {
+     "hao": 0.8574715690086189,
+     "base": 0.9995340234181505,
+     "p": 2.9038408865825633e-08,
+     "better": true
+    }
+   }
+  },
+  "wE=0.0188,h=1.7": {
+   "composite_means": {
+    "Centralized Orchestration": 0.0655,
+    "Centralized Predictive": 0.7501,
+    "Flat-Agent Allocation": 0.763,
+    "HAO-PRA-U": 0.7392,
+    "Reactive Allocation": 0.7405,
+    "Static Allocation": 0.9092
+   },
+   "winner": "Static Allocation",
+   "runner_up": "Flat-Agent Allocation",
+   "p_vs_runner": 0.0,
+   "decisive": true,
+   "pareto_vs": "Static Allocation",
+   "pareto": {
+    "sla_violation": {
+     "hao": 0.0172,
+     "base": 0.016733333333333333,
+     "p": 0.8565033933659711,
+     "better": false
+    },
+    "utilization": {
+     "hao": 0.7853849750507224,
+     "base": 0.8226682355402304,
+     "p": 0.02060198114571794,
+     "better": true
+    }
+   }
+  },
+  "wE=0.0188,h=2.0": {
+   "composite_means": {
+    "Centralized Orchestration": 0.0619,
+    "Centralized Predictive": 0.8323,
+    "Flat-Agent Allocation": 0.7661,
+    "HAO-PRA-U": 0.8361,
+    "Reactive Allocation": 0.84,
+    "Static Allocation": 0.9072
+   },
+   "winner": "Static Allocation",
+   "runner_up": "Reactive Allocation",
+   "p_vs_runner": 0.0,
+   "decisive": true,
+   "pareto_vs": "Static Allocation",
+   "pareto": {
+    "sla_violation": {
+     "hao": 0.012133333333333333,
+     "base": 0.016733333333333333,
+     "p": 0.048283694933489066,
+     "better": true
+    },
+    "utilization": {
+     "hao": 0.6909586552971677,
+     "base": 0.7006087940865033,
+     "p": 0.2503700077428625,
+     "better": false
+    }
+   }
+  },
+  "wE=0.0188,h=2.3": {
+   "composite_means": {
+    "Centralized Orchestration": 0.0337,
+    "Centralized Predictive": 0.8065,
+    "Flat-Agent Allocation": 0.7361,
+    "HAO-PRA-U": 0.7578,
+    "Reactive Allocation": 0.8475,
+    "Static Allocation": 0.8783
+   },
+   "winner": "Static Allocation",
+   "runner_up": "Reactive Allocation",
+   "p_vs_runner": 0.00145,
+   "decisive": true,
+   "pareto_vs": "Static Allocation",
+   "pareto": {
+    "sla_violation": {
+     "hao": 0.015466666666666667,
+     "base": 0.016733333333333333,
+     "p": 0.6812219084272013,
+     "better": false
+    },
+    "utilization": {
+     "hao": 0.5904081136177994,
+     "base": 0.6091676254613604,
+     "p": 0.015075502687980703,
+     "better": true
+    }
+   }
+  },
+  "wE=0.05,h=1.4": {
+   "composite_means": {
+    "Centralized Orchestration": 0.1398,
+    "Centralized Predictive": 0.5772,
+    "Flat-Agent Allocation": 0.7021,
+    "HAO-PRA-U": 0.5398,
+    "Reactive Allocation": 0.4393,
+    "Static Allocation": 0.8352
+   },
+   "winner": "Static Allocation",
+   "runner_up": "Flat-Agent Allocation",
+   "p_vs_runner": 0.00018,
+   "decisive": true,
+   "pareto_vs": "Static Allocation",
+   "pareto": {
+    "sla_violation": {
+     "hao": 0.052933333333333346,
+     "base": 0.021866666666666666,
+     "p": 0.0005672018204515194,
+     "better": false
+    },
+    "utilization": {
+     "hao": 0.8575383125723164,
+     "base": 0.9569340819944998,
+     "p": 2.675178840386586e-06,
+     "better": true
+    }
+   }
+  },
+  "wE=0.05,h=1.7": {
+   "composite_means": {
+    "Centralized Orchestration": 0.0952,
+    "Centralized Predictive": 0.7275,
+    "Flat-Agent Allocation": 0.7485,
+    "HAO-PRA-U": 0.7195,
+    "Reactive Allocation": 0.7235,
+    "Static Allocation": 0.8899
+   },
+   "winner": "Static Allocation",
+   "runner_up": "Flat-Agent Allocation",
+   "p_vs_runner": 0.0,
+   "decisive": true,
+   "pareto_vs": "Static Allocation",
+   "pareto": {
+    "sla_violation": {
+     "hao": 0.017533333333333335,
+     "base": 0.016733333333333333,
+     "p": 0.7626053713669482,
+     "better": false
+    },
+    "utilization": {
+     "hao": 0.7850602913442422,
+     "base": 0.8226682355402304,
+     "p": 0.020552911903077356,
+     "better": true
+    }
+   }
+  },
+  "wE=0.05,h=2.0": {
+   "composite_means": {
+    "Centralized Orchestration": 0.0917,
+    "Centralized Predictive": 0.8075,
+    "Flat-Agent Allocation": 0.7513,
+    "HAO-PRA-U": 0.7787,
+    "Reactive Allocation": 0.8193,
+    "Static Allocation": 0.8891
+   },
+   "winner": "Static Allocation",
+   "runner_up": "Reactive Allocation",
+   "p_vs_runner": 0.0,
+   "decisive": true,
+   "pareto_vs": "Static Allocation",
+   "pareto": {
+    "sla_violation": {
+     "hao": 0.014133333333333331,
+     "base": 0.016733333333333333,
+     "p": 0.3641821120703709,
+     "better": false
+    },
+    "utilization": {
+     "hao": 0.6826723295329739,
+     "base": 0.7006087940865033,
+     "p": 0.11689191549855395,
+     "better": false
+    }
+   }
+  },
+  "wE=0.05,h=2.3": {
+   "composite_means": {
+    "Centralized Orchestration": 0.0645,
+    "Centralized Predictive": 0.7821,
+    "Flat-Agent Allocation": 0.7206,
+    "HAO-PRA-U": 0.7292,
+    "Reactive Allocation": 0.8264,
+    "Static Allocation": 0.8611
+   },
+   "winner": "Static Allocation",
+   "runner_up": "Reactive Allocation",
+   "p_vs_runner": 0.0004,
+   "decisive": true,
+   "pareto_vs": "Static Allocation",
+   "pareto": {
+    "sla_violation": {
+     "hao": 0.0158,
+     "base": 0.016733333333333333,
+     "p": 0.7619968071869264,
+     "better": false
+    },
+    "utilization": {
+     "hao": 0.5874937436552063,
+     "base": 0.6091676254613604,
+     "p": 0.014754134566462372,
+     "better": true
+    }
+   }
+  },
+  "wE=0.1,h=1.4": {
+   "composite_means": {
+    "Centralized Orchestration": 0.1678,
+    "Centralized Predictive": 0.5864,
+    "Flat-Agent Allocation": 0.7041,
+    "HAO-PRA-U": 0.5328,
+    "Reactive Allocation": 0.4506,
+    "Static Allocation": 0.8523
+   },
+   "winner": "Static Allocation",
+   "runner_up": "Flat-Agent Allocation",
+   "p_vs_runner": 0.0,
+   "decisive": true,
+   "pareto_vs": "Static Allocation",
+   "pareto": {
+    "sla_violation": {
+     "hao": 0.053133333333333345,
+     "base": 0.02506666666666667,
+     "p": 0.0011847895068312624,
+     "better": false
+    },
+    "utilization": {
+     "hao": 0.8565705813633426,
+     "base": 0.9285341210453992,
+     "p": 5.783060718239092e-06,
+     "better": true
+    }
+   }
+  },
+  "wE=0.1,h=1.7": {
+   "composite_means": {
+    "Centralized Orchestration": 0.1414,
+    "Centralized Predictive": 0.6897,
+    "Flat-Agent Allocation": 0.729,
+    "HAO-PRA-U": 0.6389,
+    "Reactive Allocation": 0.7035,
+    "Static Allocation": 0.8646
+   },
+   "winner": "Static Allocation",
+   "runner_up": "Flat-Agent Allocation",
+   "p_vs_runner": 0.0,
+   "decisive": true,
+   "pareto_vs": "Static Allocation",
+   "pareto": {
+    "sla_violation": {
+     "hao": 0.021866666666666666,
+     "base": 0.016733333333333333,
+     "p": 0.2728654105798722,
+     "better": false
+    },
+    "utilization": {
+     "hao": 0.7733257584449145,
+     "base": 0.8226682355402304,
+     "p": 0.016095651371390227,
+     "better": true
+    }
+   }
+  },
+  "wE=0.1,h=2.0": {
+   "composite_means": {
+    "Centralized Orchestration": 0.1396,
+    "Centralized Predictive": 0.768,
+    "Flat-Agent Allocation": 0.7267,
+    "HAO-PRA-U": 0.7284,
+    "Reactive Allocation": 0.7859,
+    "Static Allocation": 0.8596
+   },
+   "winner": "Static Allocation",
+   "runner_up": "Reactive Allocation",
+   "p_vs_runner": 0.0,
+   "decisive": true,
+   "pareto_vs": "Static Allocation",
+   "pareto": {
+    "sla_violation": {
+     "hao": 0.0154,
+     "base": 0.016733333333333333,
+     "p": 0.6758760693377742,
+     "better": false
+    },
+    "utilization": {
+     "hao": 0.6794052236776291,
+     "base": 0.7006087940865033,
+     "p": 0.08798962567886326,
+     "better": false
+    }
+   }
+  },
+  "wE=0.1,h=2.3": {
+   "composite_means": {
+    "Centralized Orchestration": 0.1137,
+    "Centralized Predictive": 0.7431,
+    "Flat-Agent Allocation": 0.6974,
+    "HAO-PRA-U": 0.6633,
+    "Reactive Allocation": 0.7935,
+    "Static Allocation": 0.8351
+   },
+   "winner": "Static Allocation",
+   "runner_up": "Reactive Allocation",
+   "p_vs_runner": 4e-05,
+   "decisive": true,
+   "pareto_vs": "Static Allocation",
+   "pareto": {
+    "sla_violation": {
+     "hao": 0.018333333333333333,
+     "base": 0.016733333333333333,
+     "p": 0.6210757883280524,
+     "better": false
+    },
+    "utilization": {
+     "hao": 0.5773224728127859,
+     "base": 0.6091676254613604,
+     "p": 0.0023687306921154378,
+     "better": true
+    }
+   }
+  },
+  "wE=0.2,h=1.4": {
+   "composite_means": {
+    "Centralized Orchestration": 0.2342,
+    "Centralized Predictive": 0.5352,
+    "Flat-Agent Allocation": 0.6197,
+    "HAO-PRA-U": 0.5051,
+    "Reactive Allocation": 0.4476,
+    "Static Allocation": 0.7418
+   },
+   "winner": "Static Allocation",
+   "runner_up": "Flat-Agent Allocation",
+   "p_vs_runner": 0.0,
+   "decisive": true,
+   "pareto_vs": "Static Allocation",
+   "pareto": {
+    "sla_violation": {
+     "hao": 0.048266666666666666,
+     "base": 0.02506666666666667,
+     "p": 0.00033941062576086175,
+     "better": false
+    },
+    "utilization": {
+     "hao": 0.8286768646554963,
+     "base": 0.9285341210453992,
+     "p": 1.709135740394985e-08,
+     "better": true
+    }
+   }
+  },
+  "wE=0.2,h=1.7": {
+   "composite_means": {
+    "Centralized Orchestration": 0.2364,
+    "Centralized Predictive": 0.6255,
+    "Flat-Agent Allocation": 0.6861,
+    "HAO-PRA-U": 0.5986,
+    "Reactive Allocation": 0.6794,
+    "Static Allocation": 0.801
+   },
+   "winner": "Static Allocation",
+   "runner_up": "Flat-Agent Allocation",
+   "p_vs_runner": 3e-05,
+   "decisive": true,
+   "pareto_vs": "Static Allocation",
+   "pareto": {
+    "sla_violation": {
+     "hao": 0.02873333333333334,
+     "base": 0.02506666666666667,
+     "p": 0.386811641035399,
+     "better": false
+    },
+    "utilization": {
+     "hao": 0.715271140317075,
+     "base": 0.7639062187159283,
+     "p": 0.0012308479664537154,
+     "better": true
+    }
+   }
+  },
+  "wE=0.2,h=2.0": {
+   "composite_means": {
+    "Centralized Orchestration": 0.2256,
+    "Centralized Predictive": 0.5757,
+    "Flat-Agent Allocation": 0.5961,
+    "HAO-PRA-U": 0.5495,
+    "Reactive Allocation": 0.6823,
+    "Static Allocation": 0.7691
+   },
+   "winner": "Static Allocation",
+   "runner_up": "Reactive Allocation",
+   "p_vs_runner": 0.00073,
+   "decisive": true,
+   "pareto_vs": "Static Allocation",
+   "pareto": {
+    "sla_violation": {
+     "hao": 0.031,
+     "base": 0.02506666666666667,
+     "p": 0.25497649672758527,
+     "better": false
+    },
+    "utilization": {
+     "hao": 0.6185344384676931,
+     "base": 0.6505653087946104,
+     "p": 0.01779192057166858,
+     "better": true
+    }
+   }
+  },
+  "wE=0.2,h=2.3": {
+   "composite_means": {
+    "Centralized Orchestration": 0.2225,
+    "Centralized Predictive": 0.3492,
+    "Flat-Agent Allocation": 0.4141,
+    "HAO-PRA-U": 0.5492,
+    "Reactive Allocation": 0.5576,
+    "Static Allocation": 0.81
+   },
+   "winner": "Static Allocation",
+   "runner_up": "Reactive Allocation",
+   "p_vs_runner": 0.0,
+   "decisive": true,
+   "pareto_vs": "Static Allocation",
+   "pareto": {
+    "sla_violation": {
+     "hao": 0.03133333333333334,
+     "base": 0.02506666666666667,
+     "p": 0.1909645142862966,
+     "better": false
+    },
+    "utilization": {
+     "hao": 0.5349638650663017,
+     "base": 0.5656556522141204,
+     "p": 0.014406264916382295,
+     "better": true
+    }
+   }
+  },
+  "wE=0.3,h=1.4": {
+   "composite_means": {
+    "Centralized Orchestration": 0.2814,
+    "Centralized Predictive": 0.6389,
+    "Flat-Agent Allocation": 0.6509,
+    "HAO-PRA-U": 0.5455,
+    "Reactive Allocation": 0.487,
+    "Static Allocation": 0.5392
+   },
+   "winner": "Flat-Agent Allocation",
+   "runner_up": "Centralized Predictive",
+   "p_vs_runner": 0.77819,
+   "decisive": false,
+   "pareto_vs": "Flat-Agent Allocation",
+   "pareto": {
+    "sla_violation": {
+     "hao": 0.050933333333333344,
+     "base": 0.05006666666666666,
+     "p": 0.8689439610516899,
+     "better": false
+    },
+    "utilization": {
+     "hao": 0.8041900183967321,
+     "base": 0.8032254233394468,
+     "p": 0.8959722510217112,
+     "better": false
+    }
+   }
+  },
+  "wE=0.3,h=1.7": {
+   "composite_means": {
+    "Centralized Orchestration": 0.2885,
+    "Centralized Predictive": 0.4395,
+    "Flat-Agent Allocation": 0.4631,
+    "HAO-PRA-U": 0.4692,
+    "Reactive Allocation": 0.4602,
+    "Static Allocation": 0.7
+   },
+   "winner": "Static Allocation",
+   "runner_up": "HAO-PRA-U",
+   "p_vs_runner": 0.0,
+   "decisive": true,
+   "pareto_vs": "Static Allocation",
+   "pareto": {
+    "sla_violation": {
+     "hao": 0.042800000000000005,
+     "base": 0.02506666666666667,
+     "p": 0.0017231092904760959,
+     "better": false
+    },
+    "utilization": {
+     "hao": 0.6639402403797154,
+     "base": 0.7639062187159283,
+     "p": 9.563681117290922e-08,
+     "better": true
+    }
+   }
+  },
+  "wE=0.3,h=2.0": {
+   "composite_means": {
+    "Centralized Orchestration": 0.3838,
+    "Centralized Predictive": 0.4107,
+    "Flat-Agent Allocation": 0.4146,
+    "HAO-PRA-U": 0.4439,
+    "Reactive Allocation": 0.6016,
+    "Static Allocation": 0.6043
+   },
+   "winner": "Static Allocation",
+   "runner_up": "Reactive Allocation",
+   "p_vs_runner": 0.9347,
+   "decisive": false,
+   "pareto_vs": "Static Allocation",
+   "pareto": {
+    "sla_violation": {
+     "hao": 0.0514,
+     "base": 0.0518,
+     "p": 0.921365108764988,
+     "better": false
+    },
+    "utilization": {
+     "hao": 0.5553270638243835,
+     "base": 0.6055261720319065,
+     "p": 4.31886830109764e-07,
+     "better": true
+    }
+   }
+  },
+  "wE=0.3,h=2.3": {
+   "composite_means": {
+    "Centralized Orchestration": 0.4161,
+    "Centralized Predictive": 0.3995,
+    "Flat-Agent Allocation": 0.3959,
+    "HAO-PRA-U": 0.4906,
+    "Reactive Allocation": 0.5051,
+    "Static Allocation": 0.6812
+   },
+   "winner": "Static Allocation",
+   "runner_up": "Reactive Allocation",
+   "p_vs_runner": 0.00017,
+   "decisive": true,
+   "pareto_vs": "Static Allocation",
+   "pareto": {
+    "sla_violation": {
+     "hao": 0.05173333333333333,
+     "base": 0.0548,
+     "p": 0.48844600565723345,
+     "better": false
+    },
+    "utilization": {
+     "hao": 0.484314040038075,
+     "base": 0.5221436789668806,
+     "p": 7.308819015750225e-05,
+     "better": true
+    }
+   }
+  }
+ }
+}
