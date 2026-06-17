@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this software or its baselines, please cite the paper below."
 
 # --- SOFTWARE METADATA (How the repo appears) ---
-title: "Code for: Hierarchical Agentic Orchestration for Cross-Domain Zero-Touch Slicing"
+title: "Code for: Pre-Registered Evaluation of Learned Slice Orchestration in 6G"
 authors:
   - family-names: "Hegde"
     given-names: "Praveen"
@@ -13,7 +13,7 @@ doi: "10.5281/zenodo.20721049"
 # --- PAPER METADATA (What people will actually cite) ---
 preferred-citation:
   type: article
-  title: "Hierarchical Agentic Orchestration for Cross-Domain Zero-Touch Slicing: A Pre-Registered Evaluation Against Tuned Baselines for 6G"
+  title: "Pre-Registered Evaluation of Learned Slice Orchestration in 6G: A Negative Case Study on Hierarchical Agentic Control"
   authors:
     - family-names: "Hegde"
       given-names: "Praveen"

@@ -1,4 +1,4 @@
-# A Pre-Registered Protocol for Evaluating Learned Cross-Domain Slice Orchestration in 6G
+# Pre-Registered Evaluation of Learned Slice Orchestration in 6G
 
 <!-- Zenodo: create a release on GitHub, link the repo in Zenodo, then paste
      the badge Markdown Zenodo gives you, replacing the two placeholders below.
@@ -134,8 +134,8 @@ repository.)
 The manuscript is **not** included in this repository (publisher copyright).
 This repo holds the code, data, and pre-registrations that back the paper.
 
-> Hierarchical Agentic Orchestration for Cross-Domain Zero-Touch Slicing:
-> A Pre-Registered Evaluation Against Tuned Baselines for 6G.
+> Pre-Registered Evaluation of Learned Slice Orchestration in 6G:
+> A Negative Case Study on Hierarchical Agentic Control.
 > IEEE Transactions on Network and Service Management (under review / DOI to appear).
 
 See `CITATION.cff` for citation metadata.
@@ -151,9 +151,9 @@ and the archived software.
 
 **Software (this repository)** — archived on Zenodo:
 
-> Hegde, P. (2026). *Hierarchical Agentic Orchestration for
-> Cross-Domain Zero-Touch Slicing: evaluation code, pre-registrations, and
-> data* [Software]. Zenodo. https://doi.org/10.5281/zenodo.20721049
+> Hegde, P. (2026). *Pre-Registered Evaluation of Learned Slice
+>  Orchestration in 6G: A Negative Case Study on Hierarchical Agentic
+>  Control* [Software]. Zenodo. https://doi.org/10.5281/zenodo.20721049
 
 
 ## License
