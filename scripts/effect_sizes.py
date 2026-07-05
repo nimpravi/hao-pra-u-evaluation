@@ -3,7 +3,7 @@
 Effect-size computation for HAO-PRA-U vs. baselines.
 
 Complements significance_test.py (which reports Welch's t and p) by adding
-practical-significance measures requested in review:
+practical-significance measures.
 
   * Cohen's d           -- standardized mean difference (parametric).
   * Cliff's delta       -- non-parametric, rank-based, robust to non-normality;

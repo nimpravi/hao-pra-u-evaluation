@@ -3,9 +3,7 @@
 Objective-weight sensitivity analysis.
 
 The pre-registered sweep varies only the energy/resource-cost weight w_E.
-A reviewer asked whether the headline outcome (tuned Static dominates; the
-learned hierarchy wins no regime) is an artifact of the fixed values of the
-*other* objective weights. This script perturbs the two highest-leverage
+This script perturbs the two highest-leverage
 weights -- SLA-compliance (alpha_1) and latency (alpha_2) -- by +/-50% of
 their registered values, renormalizes the remaining weights to keep the
 composite a convex combination, and recomputes the per-regime winner across

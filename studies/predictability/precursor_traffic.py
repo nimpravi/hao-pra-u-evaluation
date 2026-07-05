@@ -9,10 +9,7 @@ alternative traffic family in which bursts are *anticipable*: each burst is
 preceded by an observable leading-indicator signal whose informativeness is
 controlled by a single scalar knob, `predictability` in [0, 1].
 
-It exists to answer one reviewer objection to the negative-result paper:
-"You engineered an environment (memoryless Bernoulli bursts) where no
-forecaster can anticipate bursts, so of course learned orchestration cannot
-beat tuned over-provisioning." This generator removes that objection by
+This generator removes that objection by
 letting prediction *in principle* pay, and asking whether HAO-PRA-U then
 beats per-regime-tuned baselines. It does NOT presume the answer.
 
@@ -36,7 +33,7 @@ Three candidate precursor mechanisms were considered:
     k steps before a burst). Anticipable and cleanly separable, but
     physically unmotivated: a free-floating oracle-ish flag invites the
     symmetric objection ("now you engineered an environment where prediction
-    trivially pays"). A reviewer would not believe it models 6G traffic.
+    trivially pays").
 
 (c) State-dependent hazard with a noisy observation of the latent state
     (CHOSEN). A latent congestion-pressure state x(t) evolves with slow
