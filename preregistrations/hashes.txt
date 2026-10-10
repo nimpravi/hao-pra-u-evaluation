@@ -49,10 +49,8 @@ d6ff52e4c0cc3bfbf5fe31997bb0195b1eca6deee24aac4ac57eb0025a45c05f  studies/regime
 7a845d116d9504383537138ce97bc8725d947914f5d4128e935f1c06b7f237af  studies/predictability/precursor_traffic.py
 f0e1708754d7e93dc4ff5083620ef924ba4b54901e47254073140605498ce666  studies/predictability/run_experiment3.py
 
-# --- Studies 4 to 6: append these lines WHEN you commit the check-in bundle.
-# Leave them commented until the files exist, or `sha256sum -c` will fail on
-# missing paths. Recompute rather than trusting these if you modify anything.
-#
+# --- Studies 4 to 6:
+
 30bedec85beec3d8952c5abe91ee8a1de7aa2168e41b42ae5ad277684d67d08d  studies/nested_validation/hao_pra_u_sim.py
 210c7b0a6b87f7e6a4c2fed6ea60433ed5498d062a5b40a7e25ce54e1ded363d  studies/nested_validation/nested_driver.py
 30bedec85beec3d8952c5abe91ee8a1de7aa2168e41b42ae5ad277684d67d08d  studies/ppo_study/hao_pra_u_sim.py
