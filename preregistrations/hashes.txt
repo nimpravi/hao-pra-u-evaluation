@@ -11,18 +11,53 @@
 #   Linux/macOS:  sha256sum <file>
 #   Windows:      certutil -hashfile <file> SHA256
 #
+# LINE ENDINGS: these digests are over LF-terminated files. .gitattributes
+# pins *.py to eol=lf so a checkout on Windows does not produce CRLF files
+# whose digests differ from the pins.
+#
 # Enforcement note:
 #   * Experiment 3 (run_experiment3.py) verifies these hashes AT RUNTIME and
 #     aborts on mismatch.
-#   * Experiments 1 and 2 (sweep_driver.py, shift_driver.py) do NOT self-check;
-#     verify their sim copy manually against the line below before running.
+#   * Experiments 1 and 2 (sweep_driver.py, shift_driver.py) do NOT
+#     self-check; verify their sim copy manually against the line below
+#     before running.
+#
+# AMENDMENT A4 (see NOTICE_A4.md): the Experiment-3 generator's module
+# docstring was edited after registration to remove quoted peer-review
+# correspondence. The edit is comment-only; executable content is unchanged,
+# proved by abstract-syntax-tree comparison. Superseded digest, retained for
+# audit:
+#   d2c8f28c5220e2f60b7fc3d5c0c28a154757649b20a595df2ef74905264f7aa4
+#   studies/predictability/precursor_traffic.py   (as registered, commit 4c624aa)
+#
+# DRIVER PINS: the three study drivers were not pinned in the original
+# registration. They are pinned below, added after the fact, so that the
+# registered methodology they carry (notably the brisk Q-state feature that
+# run_experiment3.py installs by monkey-patch) cannot be changed without
+# tripping this check. These four lines are not original registrations.
 
 # --- Experiment 1: regime sweep ---
 24f20b81ad19edbd522c72596d8526218cd8274a3791679e8af0897accdf3a3d  studies/regime_sweep/hao_pra_u_sim.py
+01e24c4842489d37bcaa5f6793c1bd307ac0693529d29ebd2c83133685705087  studies/regime_sweep/sweep_driver.py
 
 # --- Experiment 2: regime shift ---
 24f20b81ad19edbd522c72596d8526218cd8274a3791679e8af0897accdf3a3d  studies/regime_shift/hao_pra_u_sim.py
+d6ff52e4c0cc3bfbf5fe31997bb0195b1eca6deee24aac4ac57eb0025a45c05f  studies/regime_shift/shift_driver.py
 
 # --- Experiment 3: predictability sweep ---
 24f20b81ad19edbd522c72596d8526218cd8274a3791679e8af0897accdf3a3d  studies/predictability/hao_pra_u_sim.py
-d2c8f28c5220e2f60b7fc3d5c0c28a154757649b20a595df2ef74905264f7aa4  studies/predictability/precursor_traffic.py
+7a845d116d9504383537138ce97bc8725d947914f5d4128e935f1c06b7f237af  studies/predictability/precursor_traffic.py
+f0e1708754d7e93dc4ff5083620ef924ba4b54901e47254073140605498ce666  studies/predictability/run_experiment3.py
+
+# --- Studies 4 to 6: append these lines WHEN you commit the check-in bundle.
+# Leave them commented until the files exist, or `sha256sum -c` will fail on
+# missing paths. Recompute rather than trusting these if you modify anything.
+#
+30bedec85beec3d8952c5abe91ee8a1de7aa2168e41b42ae5ad277684d67d08d  studies/nested_validation/hao_pra_u_sim.py
+210c7b0a6b87f7e6a4c2fed6ea60433ed5498d062a5b40a7e25ce54e1ded363d  studies/nested_validation/nested_driver.py
+30bedec85beec3d8952c5abe91ee8a1de7aa2168e41b42ae5ad277684d67d08d  studies/ppo_study/hao_pra_u_sim.py
+03852400aade3422547c72c557aae890c65ae1f7e9b94d01ab40ef4295efde7d  studies/ppo_study/ppo_reserve.py
+2b3f24b16c600c2d89eb8f0fa11efc2a55f00efc13ffd0298c95ea393691c5ed  studies/ppo_study/ppo_driver.py
+30bedec85beec3d8952c5abe91ee8a1de7aa2168e41b42ae5ad277684d67d08d  studies/ablation_study/hao_pra_u_sim.py
+03852400aade3422547c72c557aae890c65ae1f7e9b94d01ab40ef4295efde7d  studies/ablation_study/ppo_reserve.py
+2037fba15033c9cf75048833d16c9354ca7c35eca1709431ff1a201c7ccb51e9  studies/ablation_study/ablation_driver.py

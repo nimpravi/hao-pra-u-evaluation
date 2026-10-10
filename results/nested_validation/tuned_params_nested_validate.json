@@ -1,0 +1,44 @@
+[
+  {
+    "w_E": 0.0188,
+    "headroom": 2.0,
+    "seed": 0,
+    "tuned": {
+      "static_margin": 1.4,
+      "reactive_margin": 1.4,
+      "cp_margin": 1.4,
+      "cent_period": 3,
+      "cent_margin": 1.15,
+      "flat_headroom": [
+        1.4,
+        1.4,
+        1.4,
+        1.4,
+        1.4
+      ],
+      "hao_gamma": 0.85,
+      "hao_reserve_scale": 1.5
+    }
+  },
+  {
+    "w_E": 0.0188,
+    "headroom": 2.0,
+    "seed": 1,
+    "tuned": {
+      "static_margin": 1.4,
+      "reactive_margin": 1.4,
+      "cp_margin": 1.4,
+      "cent_period": 3,
+      "cent_margin": 1.15,
+      "flat_headroom": [
+        1.4,
+        1.4,
+        1.4,
+        1.4,
+        1.4
+      ],
+      "hao_gamma": 0.85,
+      "hao_reserve_scale": 1.5
+    }
+  }
+]

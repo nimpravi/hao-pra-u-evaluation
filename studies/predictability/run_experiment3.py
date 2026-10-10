@@ -58,8 +58,13 @@ ANCHOR_W_E, ANCHOR_H = 0.0188, 2.00
 BRISK_BINS = [1.10, 1.30]                        # Section 4.7
 # Expected hashes of the frozen artifacts (Section 0 of the prereg).
 EXPECTED_HASHES = {
+    # Amendment A4 (see preregistrations/NOTICE_A4.md): the module docstring
+    # was edited after registration to remove quoted peer-review
+    # correspondence. The edit is comment-only; executable content is
+    # unchanged, verified by AST comparison against d2c8f28c... (commit
+    # 4c624aa). Superseded digest retained there for audit.
     "precursor_traffic.py":
-        "d2c8f28c5220e2f60b7fc3d5c0c28a154757649b20a595df2ef74905264f7aa4",
+        "7a845d116d9504383537138ce97bc8725d947914f5d4128e935f1c06b7f237af",
     "hao_pra_u_sim.py":
         "24f20b81ad19edbd522c72596d8526218cd8274a3791679e8af0897accdf3a3d",
 }

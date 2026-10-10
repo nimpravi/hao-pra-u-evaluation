@@ -1,5 +1,11 @@
-# Pinned to versions used for the published runs. Newer versions likely work
-# but are not guaranteed bit-identical for the seeded results.
+# Declared ranges for installation, NOT exact pins, and NOT a tested
+# compatibility claim. The only configuration these studies have actually
+# been run under is recorded in provenance/ENVIRONMENT.md; regenerate that
+# file with `python scripts/capture_environment.py`.
+#
+# Seeded results are expected to be identical under the recorded
+# configuration. They are not guaranteed bit-identical under other versions
+# inside these ranges, particularly across the numpy 1.x to 2.x boundary.
 numpy>=1.24,<3
 scipy>=1.10
 torch>=2.0
