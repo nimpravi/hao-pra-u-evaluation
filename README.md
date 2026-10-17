@@ -24,13 +24,20 @@ strong, reusable baselines.
 
 ## Why pre-registration
 
-Each study's hypotheses, seeds, parameter grid, statistical decision rule,
-and metrics were frozen and timestamped **before** results were observed.
+Each study's hypotheses, seeds, parameter grid, statistical decision rule and
+metrics were fixed in a pre-registration document before results were observed.
+Studies 1 to 3 carry author-declared registration dates (2026-06-11, 2026-06-12,
+2026-06-13), recorded in commit 1a6426a, which precedes the commit that added
+their results. The Studies 4 to 6 registration documents are undated and were
+committed after their results. No registration in this repository is third-party
+timestamped, so the ordering is author-attested rather than witnessed. See
+preregistrations/NOTICE_A5.md, which also records two unamended post-results
+edits found while preparing the revision.
+
 The run harness verifies the SHA-256 of the frozen simulator and generator
-against the values pinned in the pre-registration and **refuses to run** on
-a mismatch. This makes "registered before results" mechanically checkable
-rather than a claim of good faith. See `preregistrations/` and
-`preregistrations/hashes.txt`.
+against the values pinned in the pre-registration, and aborts on a mismatch. As
+of Amendment A5 the pinned set also covers the pre-registration documents
+themselves, which it did not before.
 
 ---
 
