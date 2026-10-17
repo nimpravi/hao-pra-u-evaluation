@@ -36,6 +36,15 @@
 # run_experiment3.py installs by monkey-patch) cannot be changed without
 # tripping this check. These four lines are not original registrations.
 
+# --- pre-registration documents (added by Amendment A5) ---
+7a1bb429db70e49154832d744275ef186d6273d1465c7b0ad5ec101f88ba6888  preregistrations/EXPERIMENT3_PREREGISTRATION.md
+ab95f77d39ec46aa8d6be1be9a6b2d0726ecd6f0c009980676467b02f14710d0  preregistrations/PREREGISTRATION_ABLATION_STUDY.md
+3ee33cdddedf1d3f35425b18b096022ef8c569d12d7c81d97eec52addfcfe5b2  preregistrations/PREREGISTRATION_NESTED_VALIDATION.md
+f6ee621d002fcf83d7e8a9fdc49e4b734046543378ee721048a01bc819ecf1d1  preregistrations/PREREGISTRATION_PPO_STUDY.md
+a873e8bd083dfd5a4444a3350dc72f2f7c30dd3359dd48083d8b079e6cb5875c  preregistrations/SHIFT_STUDY_PREREGISTRATION.md
+a934c2fd62f921dc4df8c834e4e4e55adf238e31d6885596778987467aeef7c6  preregistrations/SWEEP_PREREGISTRATION.md
+
+
 # --- Experiment 1: regime sweep ---
 24f20b81ad19edbd522c72596d8526218cd8274a3791679e8af0897accdf3a3d  studies/regime_sweep/hao_pra_u_sim.py
 01e24c4842489d37bcaa5f6793c1bd307ac0693529d29ebd2c83133685705087  studies/regime_sweep/sweep_driver.py

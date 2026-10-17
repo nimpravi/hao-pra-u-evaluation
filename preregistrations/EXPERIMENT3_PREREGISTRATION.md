@@ -1,6 +1,6 @@
 # PRE-REGISTRATION — Experiment 3: Predictability Sweep (Burst-Precursor Traffic)
 
-**Status:** Registered BEFORE implementation and execution.
+**Status:** Registered BEFORE implementation and execution. Date: 2026-06-13.
 Prerequisites: DESIGN_FREEZE_v2 (method); Phase B sweep and regime-shift
 study closed. The freeze timestamp is witnessed by this file's commit in the
 repository history, which precedes the commit of any Experiment-3 result.
@@ -387,6 +387,10 @@ logged to a companion `forecast_diag.csv` — NOT consumed by
 - `precursor_channel_used`: boolean per scheme (sanity check that only the
   forecaster path saw the precursor).
 
+These diagnostics test H2 and let a reviewer see *whether prediction
+actually paid information* at each level, independent of whether HAO-PRA-U
+won.
+
 ---
 
 ## 7. What is NOT permitted after results are observed
@@ -424,3 +428,6 @@ is re-checked.
    `scripts/significance_test.py`.
 
 ---
+
+*End of pre-registration. Commit this document (freeze) before
+proceeding to deliverable 3.*

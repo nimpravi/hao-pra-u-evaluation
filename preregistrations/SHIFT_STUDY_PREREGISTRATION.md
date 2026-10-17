@@ -1,5 +1,5 @@
 # PRE-REGISTRATION — Regime-Shift Study (FINAL experimental cycle)
-Status: registered BEFORE implementation and execution.
+Status: registered BEFORE implementation and execution. Date: 2026-06-12.
 Prerequisites: DESIGN_FREEZE_v2 (method), Phase B sweep (closed, Gate 1
 failed). This study tests claim B1 of CLAIMS_INVENTORY.md.
 
