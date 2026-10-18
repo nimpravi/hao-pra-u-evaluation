@@ -1,0 +1,4802 @@
+[
+ {
+  "w_E": 0.0188,
+  "headroom": 1.4,
+  "seed": 0,
+  "tuned": {
+   "static_margin": 1.35,
+   "reactive_margin": 1.3,
+   "cp_margin": 1.25,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.3,
+    1.3,
+    1.3,
+    1.3,
+    1.3
+   ],
+   "hao_gamma": 0.9,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.12444444444444444,
+   "delay_02_latency": 14.653779691367752,
+   "delay_08_latency": 15.253779691367752
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 1.4,
+  "seed": 1,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.3,
+   "cp_margin": 1.3,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.3,
+    1.3,
+    1.3,
+    1.3,
+    1.3
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.07111111111111111,
+   "delay_02_latency": 15.368735067954125,
+   "delay_08_latency": 15.968735067954125
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 1.4,
+  "seed": 2,
+  "tuned": {
+   "static_margin": 1.35,
+   "reactive_margin": 1.2,
+   "cp_margin": 1.2,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2
+   ],
+   "hao_gamma": 0.9,
+   "hao_reserve_scale": 0.5,
+   "edge_fires_per_interval": 0.15555555555555556,
+   "delay_02_latency": 14.644638241073892,
+   "delay_08_latency": 15.244638241073893
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 1.4,
+  "seed": 3,
+  "tuned": {
+   "static_margin": 1.35,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.15,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.15,
+    1.15,
+    1.15,
+    1.15,
+    1.15
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.75,
+   "edge_fires_per_interval": 0.15555555555555556,
+   "delay_02_latency": 14.679200031191536,
+   "delay_08_latency": 15.279200031191536
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 1.4,
+  "seed": 4,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.2,
+   "cp_margin": 1.2,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2
+   ],
+   "hao_gamma": 0.95,
+   "hao_reserve_scale": 0.75,
+   "edge_fires_per_interval": 0.09333333333333334,
+   "delay_02_latency": 15.440802481492645,
+   "delay_08_latency": 16.040802481492644
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 1.4,
+  "seed": 5,
+  "tuned": {
+   "static_margin": 1.35,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.15,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.15,
+    1.15,
+    1.15,
+    1.15,
+    1.15
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.75,
+   "edge_fires_per_interval": 0.13555555555555557,
+   "delay_02_latency": 14.654534250022044,
+   "delay_08_latency": 15.254534250022044
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 1.4,
+  "seed": 6,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.2,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2
+   ],
+   "hao_gamma": 0.95,
+   "hao_reserve_scale": 0.5,
+   "edge_fires_per_interval": 0.11777777777777777,
+   "delay_02_latency": 15.470018235904865,
+   "delay_08_latency": 16.070018235904868
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 1.4,
+  "seed": 7,
+  "tuned": {
+   "static_margin": 1.35,
+   "reactive_margin": 1.25,
+   "cp_margin": 1.3,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.3,
+    1.3,
+    1.3,
+    1.3,
+    1.3
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.75,
+   "edge_fires_per_interval": 0.14444444444444443,
+   "delay_02_latency": 14.710285549492898,
+   "delay_08_latency": 15.3102855494929
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 1.4,
+  "seed": 8,
+  "tuned": {
+   "static_margin": 1.35,
+   "reactive_margin": 1.2,
+   "cp_margin": 1.2,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2
+   ],
+   "hao_gamma": 0.9,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.13555555555555557,
+   "delay_02_latency": 14.663033733400221,
+   "delay_08_latency": 15.26303373340022
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 1.4,
+  "seed": 9,
+  "tuned": {
+   "static_margin": 1.35,
+   "reactive_margin": 1.2,
+   "cp_margin": 1.2,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.75,
+   "edge_fires_per_interval": 0.14,
+   "delay_02_latency": 14.66247279080806,
+   "delay_08_latency": 15.26247279080806
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 1.7,
+  "seed": 0,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.08222222222222222,
+   "delay_02_latency": 11.182701542905074,
+   "delay_08_latency": 11.698179106498769
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 1.7,
+  "seed": 1,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.07111111111111111,
+   "delay_02_latency": 11.152722861516551,
+   "delay_08_latency": 11.668167697008442
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 1.7,
+  "seed": 2,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.35,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.11333333333333333,
+   "delay_02_latency": 11.189252746408103,
+   "delay_08_latency": 11.700198694342221
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 1.7,
+  "seed": 3,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.09333333333333334,
+   "delay_02_latency": 11.186966670897984,
+   "delay_08_latency": 11.708549451349738
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 1.7,
+  "seed": 4,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.09333333333333334,
+   "delay_02_latency": 11.210743938042311,
+   "delay_08_latency": 11.730994155636944
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 1.7,
+  "seed": 5,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.08444444444444445,
+   "delay_02_latency": 11.172147514836317,
+   "delay_08_latency": 11.691041533386459
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 1.7,
+  "seed": 6,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 8,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.95,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.11777777777777777,
+   "delay_02_latency": 11.23364244163442,
+   "delay_08_latency": 11.754922869094935
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 1.7,
+  "seed": 7,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.1,
+   "delay_02_latency": 11.229931778404055,
+   "delay_08_latency": 11.746181144653281
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 1.7,
+  "seed": 8,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.08666666666666667,
+   "delay_02_latency": 11.192941392133996,
+   "delay_08_latency": 11.708465721164183
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 1.7,
+  "seed": 9,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.1,
+   "delay_02_latency": 11.180129019517016,
+   "delay_08_latency": 11.699319147131169
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 2.0,
+  "seed": 0,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.08222222222222222,
+   "delay_02_latency": 10.714476044662426,
+   "delay_08_latency": 11.21069048483045
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 2.0,
+  "seed": 1,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.07111111111111111,
+   "delay_02_latency": 10.688368525022755,
+   "delay_08_latency": 11.180635956466132
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 2.0,
+  "seed": 2,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.11333333333333333,
+   "delay_02_latency": 10.723477216903575,
+   "delay_08_latency": 11.217101160440532
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 2.0,
+  "seed": 3,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.09333333333333334,
+   "delay_02_latency": 10.715905596501397,
+   "delay_08_latency": 11.215358110661178
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 2.0,
+  "seed": 4,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.9,
+   "hao_reserve_scale": 0.75,
+   "edge_fires_per_interval": 0.09333333333333334,
+   "delay_02_latency": 10.742231935644256,
+   "delay_08_latency": 11.238949898249183
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 2.0,
+  "seed": 5,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.08444444444444445,
+   "delay_02_latency": 10.70273685256429,
+   "delay_08_latency": 11.200358224966925
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 2.0,
+  "seed": 6,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 8,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.11777777777777777,
+   "delay_02_latency": 10.763970442318408,
+   "delay_08_latency": 11.26190709125618
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 2.0,
+  "seed": 7,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.1,
+   "delay_02_latency": 10.762909873885057,
+   "delay_08_latency": 11.25793902415642
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 2.0,
+  "seed": 8,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.08666666666666667,
+   "delay_02_latency": 10.726305064361894,
+   "delay_08_latency": 11.220973582865982
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 2.0,
+  "seed": 9,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.1,
+   "delay_02_latency": 10.711057009116024,
+   "delay_08_latency": 11.208295188641051
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 2.3,
+  "seed": 0,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.08222222222222222,
+   "delay_02_latency": 10.714476044662426,
+   "delay_08_latency": 11.21069048483045
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 2.3,
+  "seed": 1,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.07111111111111111,
+   "delay_02_latency": 10.688368525022755,
+   "delay_08_latency": 11.180635956466132
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 2.3,
+  "seed": 2,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.11333333333333333,
+   "delay_02_latency": 10.723477216903575,
+   "delay_08_latency": 11.217101160440532
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 2.3,
+  "seed": 3,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.09333333333333334,
+   "delay_02_latency": 10.715905596501397,
+   "delay_08_latency": 11.215358110661178
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 2.3,
+  "seed": 4,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.09333333333333334,
+   "delay_02_latency": 10.742231935644256,
+   "delay_08_latency": 11.238949898249183
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 2.3,
+  "seed": 5,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.08444444444444445,
+   "delay_02_latency": 10.70273685256429,
+   "delay_08_latency": 11.200358224966925
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 2.3,
+  "seed": 6,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 8,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.11777777777777777,
+   "delay_02_latency": 10.763970442318408,
+   "delay_08_latency": 11.26190709125618
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 2.3,
+  "seed": 7,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.1,
+   "delay_02_latency": 10.762909873885057,
+   "delay_08_latency": 11.25793902415642
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 2.3,
+  "seed": 8,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.08666666666666667,
+   "delay_02_latency": 10.726305064361894,
+   "delay_08_latency": 11.220973582865982
+  }
+ },
+ {
+  "w_E": 0.0188,
+  "headroom": 2.3,
+  "seed": 9,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.1,
+   "delay_02_latency": 10.711057009116024,
+   "delay_08_latency": 11.208295188641051
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 1.4,
+  "seed": 0,
+  "tuned": {
+   "static_margin": 1.35,
+   "reactive_margin": 1.3,
+   "cp_margin": 1.25,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.3,
+    1.3,
+    1.3,
+    1.3,
+    1.3
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.12444444444444444,
+   "delay_02_latency": 14.653779691367752,
+   "delay_08_latency": 15.253779691367752
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 1.4,
+  "seed": 1,
+  "tuned": {
+   "static_margin": 1.35,
+   "reactive_margin": 1.2,
+   "cp_margin": 1.3,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.3,
+    1.3,
+    1.3,
+    1.3,
+    1.3
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.10888888888888888,
+   "delay_02_latency": 14.614372715822014,
+   "delay_08_latency": 15.214372715822016
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 1.4,
+  "seed": 2,
+  "tuned": {
+   "static_margin": 1.35,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.2,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2
+   ],
+   "hao_gamma": 0.9,
+   "hao_reserve_scale": 0.5,
+   "edge_fires_per_interval": 0.15555555555555556,
+   "delay_02_latency": 14.644638241073892,
+   "delay_08_latency": 15.244638241073893
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 1.4,
+  "seed": 3,
+  "tuned": {
+   "static_margin": 1.35,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.15,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.15,
+    1.15,
+    1.15,
+    1.15,
+    1.15
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.75,
+   "edge_fires_per_interval": 0.15555555555555556,
+   "delay_02_latency": 14.679200031191536,
+   "delay_08_latency": 15.279200031191536
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 1.4,
+  "seed": 4,
+  "tuned": {
+   "static_margin": 1.35,
+   "reactive_margin": 1.2,
+   "cp_margin": 1.2,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2
+   ],
+   "hao_gamma": 0.95,
+   "hao_reserve_scale": 0.75,
+   "edge_fires_per_interval": 0.14666666666666667,
+   "delay_02_latency": 14.69482146343047,
+   "delay_08_latency": 15.294821463430468
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 1.4,
+  "seed": 5,
+  "tuned": {
+   "static_margin": 1.35,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.15,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.15,
+    1.15,
+    1.15,
+    1.15,
+    1.15
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.13555555555555557,
+   "delay_02_latency": 14.654534250022044,
+   "delay_08_latency": 15.254534250022044
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 1.4,
+  "seed": 6,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.2,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2
+   ],
+   "hao_gamma": 0.95,
+   "hao_reserve_scale": 0.5,
+   "edge_fires_per_interval": 0.11777777777777777,
+   "delay_02_latency": 15.470018235904865,
+   "delay_08_latency": 16.070018235904868
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 1.4,
+  "seed": 7,
+  "tuned": {
+   "static_margin": 1.35,
+   "reactive_margin": 1.25,
+   "cp_margin": 1.3,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.3,
+    1.3,
+    1.3,
+    1.3,
+    1.3
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.75,
+   "edge_fires_per_interval": 0.14444444444444443,
+   "delay_02_latency": 14.710285549492898,
+   "delay_08_latency": 15.3102855494929
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 1.4,
+  "seed": 8,
+  "tuned": {
+   "static_margin": 1.35,
+   "reactive_margin": 1.2,
+   "cp_margin": 1.2,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2
+   ],
+   "hao_gamma": 0.9,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.13555555555555557,
+   "delay_02_latency": 14.663033733400221,
+   "delay_08_latency": 15.26303373340022
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 1.4,
+  "seed": 9,
+  "tuned": {
+   "static_margin": 1.35,
+   "reactive_margin": 1.2,
+   "cp_margin": 1.2,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.75,
+   "edge_fires_per_interval": 0.14,
+   "delay_02_latency": 14.66247279080806,
+   "delay_08_latency": 15.26247279080806
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 1.7,
+  "seed": 0,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.08222222222222222,
+   "delay_02_latency": 11.182701542905074,
+   "delay_08_latency": 11.698179106498769
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 1.7,
+  "seed": 1,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.07111111111111111,
+   "delay_02_latency": 11.152722861516551,
+   "delay_08_latency": 11.668167697008442
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 1.7,
+  "seed": 2,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.35,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.11333333333333333,
+   "delay_02_latency": 11.189252746408103,
+   "delay_08_latency": 11.700198694342221
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 1.7,
+  "seed": 3,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.09333333333333334,
+   "delay_02_latency": 11.186966670897984,
+   "delay_08_latency": 11.708549451349738
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 1.7,
+  "seed": 4,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.09333333333333334,
+   "delay_02_latency": 11.210743938042311,
+   "delay_08_latency": 11.730994155636944
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 1.7,
+  "seed": 5,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.08444444444444445,
+   "delay_02_latency": 11.172147514836317,
+   "delay_08_latency": 11.691041533386459
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 1.7,
+  "seed": 6,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 8,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.95,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.11777777777777777,
+   "delay_02_latency": 11.23364244163442,
+   "delay_08_latency": 11.754922869094935
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 1.7,
+  "seed": 7,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.1,
+   "delay_02_latency": 11.229931778404055,
+   "delay_08_latency": 11.746181144653281
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 1.7,
+  "seed": 8,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.08666666666666667,
+   "delay_02_latency": 11.192941392133996,
+   "delay_08_latency": 11.708465721164183
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 1.7,
+  "seed": 9,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.1,
+   "delay_02_latency": 11.180129019517016,
+   "delay_08_latency": 11.699319147131169
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 2.0,
+  "seed": 0,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.08222222222222222,
+   "delay_02_latency": 10.714476044662426,
+   "delay_08_latency": 11.21069048483045
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 2.0,
+  "seed": 1,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.07111111111111111,
+   "delay_02_latency": 10.688368525022755,
+   "delay_08_latency": 11.180635956466132
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 2.0,
+  "seed": 2,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.11333333333333333,
+   "delay_02_latency": 10.723477216903575,
+   "delay_08_latency": 11.217101160440532
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 2.0,
+  "seed": 3,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.09333333333333334,
+   "delay_02_latency": 10.715905596501397,
+   "delay_08_latency": 11.215358110661178
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 2.0,
+  "seed": 4,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.9,
+   "hao_reserve_scale": 0.75,
+   "edge_fires_per_interval": 0.09333333333333334,
+   "delay_02_latency": 10.742231935644256,
+   "delay_08_latency": 11.238949898249183
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 2.0,
+  "seed": 5,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.08444444444444445,
+   "delay_02_latency": 10.70273685256429,
+   "delay_08_latency": 11.200358224966925
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 2.0,
+  "seed": 6,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 8,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.11777777777777777,
+   "delay_02_latency": 10.763970442318408,
+   "delay_08_latency": 11.26190709125618
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 2.0,
+  "seed": 7,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.1,
+   "delay_02_latency": 10.762909873885057,
+   "delay_08_latency": 11.25793902415642
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 2.0,
+  "seed": 8,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.08666666666666667,
+   "delay_02_latency": 10.726305064361894,
+   "delay_08_latency": 11.220973582865982
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 2.0,
+  "seed": 9,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.1,
+   "delay_02_latency": 10.711057009116024,
+   "delay_08_latency": 11.208295188641051
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 2.3,
+  "seed": 0,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.08222222222222222,
+   "delay_02_latency": 10.714476044662426,
+   "delay_08_latency": 11.21069048483045
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 2.3,
+  "seed": 1,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.07111111111111111,
+   "delay_02_latency": 10.688368525022755,
+   "delay_08_latency": 11.180635956466132
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 2.3,
+  "seed": 2,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.11333333333333333,
+   "delay_02_latency": 10.723477216903575,
+   "delay_08_latency": 11.217101160440532
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 2.3,
+  "seed": 3,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.09333333333333334,
+   "delay_02_latency": 10.715905596501397,
+   "delay_08_latency": 11.215358110661178
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 2.3,
+  "seed": 4,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.09333333333333334,
+   "delay_02_latency": 10.742231935644256,
+   "delay_08_latency": 11.238949898249183
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 2.3,
+  "seed": 5,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.08444444444444445,
+   "delay_02_latency": 10.70273685256429,
+   "delay_08_latency": 11.200358224966925
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 2.3,
+  "seed": 6,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 8,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.11777777777777777,
+   "delay_02_latency": 10.763970442318408,
+   "delay_08_latency": 11.26190709125618
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 2.3,
+  "seed": 7,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.1,
+   "delay_02_latency": 10.762909873885057,
+   "delay_08_latency": 11.25793902415642
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 2.3,
+  "seed": 8,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.08666666666666667,
+   "delay_02_latency": 10.726305064361894,
+   "delay_08_latency": 11.220973582865982
+  }
+ },
+ {
+  "w_E": 0.05,
+  "headroom": 2.3,
+  "seed": 9,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.75,
+   "edge_fires_per_interval": 0.1,
+   "delay_02_latency": 10.711057009116024,
+   "delay_08_latency": 11.208295188641051
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 1.4,
+  "seed": 0,
+  "tuned": {
+   "static_margin": 1.3,
+   "reactive_margin": 1.2,
+   "cp_margin": 1.2,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.2311111111111111,
+   "delay_02_latency": 13.933310921650014,
+   "delay_08_latency": 14.533310921650013
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 1.4,
+  "seed": 1,
+  "tuned": {
+   "static_margin": 1.3,
+   "reactive_margin": 1.2,
+   "cp_margin": 1.25,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.25,
+    1.25,
+    1.25,
+    1.25,
+    1.25
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.18666666666666668,
+   "delay_02_latency": 13.887368031545083,
+   "delay_08_latency": 14.487368031545083
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 1.4,
+  "seed": 2,
+  "tuned": {
+   "static_margin": 1.35,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.2,
+   "cent_period": 8,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2
+   ],
+   "hao_gamma": 0.9,
+   "hao_reserve_scale": 0.5,
+   "edge_fires_per_interval": 0.15555555555555556,
+   "delay_02_latency": 14.644638241073892,
+   "delay_08_latency": 15.244638241073893
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 1.4,
+  "seed": 3,
+  "tuned": {
+   "static_margin": 1.3,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.15,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.15,
+    1.15,
+    1.15,
+    1.15,
+    1.15
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.75,
+   "edge_fires_per_interval": 0.2577777777777778,
+   "delay_02_latency": 13.969814568923484,
+   "delay_08_latency": 14.569814568923482
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 1.4,
+  "seed": 4,
+  "tuned": {
+   "static_margin": 1.3,
+   "reactive_margin": 1.2,
+   "cp_margin": 1.2,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2
+   ],
+   "hao_gamma": 0.95,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.23777777777777778,
+   "delay_02_latency": 13.972856014959634,
+   "delay_08_latency": 14.572856014959633
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 1.4,
+  "seed": 5,
+  "tuned": {
+   "static_margin": 1.35,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.15,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.15,
+    1.15,
+    1.15,
+    1.15,
+    1.15
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.13555555555555557,
+   "delay_02_latency": 14.654534250022044,
+   "delay_08_latency": 15.254534250022044
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 1.4,
+  "seed": 6,
+  "tuned": {
+   "static_margin": 1.35,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.2,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2
+   ],
+   "hao_gamma": 0.95,
+   "hao_reserve_scale": 0.5,
+   "edge_fires_per_interval": 0.16444444444444445,
+   "delay_02_latency": 14.72901305393242,
+   "delay_08_latency": 15.32901305393242
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 1.4,
+  "seed": 7,
+  "tuned": {
+   "static_margin": 1.35,
+   "reactive_margin": 1.2,
+   "cp_margin": 1.3,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.3,
+    1.3,
+    1.3,
+    1.3,
+    1.3
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.75,
+   "edge_fires_per_interval": 0.14444444444444443,
+   "delay_02_latency": 14.710285549492898,
+   "delay_08_latency": 15.3102855494929
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 1.4,
+  "seed": 8,
+  "tuned": {
+   "static_margin": 1.35,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.2,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.13555555555555557,
+   "delay_02_latency": 14.663033733400221,
+   "delay_08_latency": 15.26303373340022
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 1.4,
+  "seed": 9,
+  "tuned": {
+   "static_margin": 1.3,
+   "reactive_margin": 1.2,
+   "cp_margin": 1.2,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.75,
+   "edge_fires_per_interval": 0.25333333333333335,
+   "delay_02_latency": 13.936794806991946,
+   "delay_08_latency": 14.536794806991946
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 1.7,
+  "seed": 0,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.08222222222222222,
+   "delay_02_latency": 11.182701542905074,
+   "delay_08_latency": 11.698179106498769
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 1.7,
+  "seed": 1,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.07111111111111111,
+   "delay_02_latency": 11.152722861516551,
+   "delay_08_latency": 11.668167697008442
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 1.7,
+  "seed": 2,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.35,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.11333333333333333,
+   "delay_02_latency": 11.189252746408103,
+   "delay_08_latency": 11.700198694342221
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 1.7,
+  "seed": 3,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.09333333333333334,
+   "delay_02_latency": 11.186966670897984,
+   "delay_08_latency": 11.708549451349738
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 1.7,
+  "seed": 4,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.35,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.09333333333333334,
+   "delay_02_latency": 11.210743938042311,
+   "delay_08_latency": 11.730994155636944
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 1.7,
+  "seed": 5,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.3,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.08444444444444445,
+   "delay_02_latency": 11.172147514836317,
+   "delay_08_latency": 11.691041533386459
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 1.7,
+  "seed": 6,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.35,
+   "cp_margin": 1.4,
+   "cent_period": 8,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.95,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.11777777777777777,
+   "delay_02_latency": 11.23364244163442,
+   "delay_08_latency": 11.754922869094935
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 1.7,
+  "seed": 7,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.1,
+   "delay_02_latency": 11.229931778404055,
+   "delay_08_latency": 11.746181144653281
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 1.7,
+  "seed": 8,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.35,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.08666666666666667,
+   "delay_02_latency": 11.192941392133996,
+   "delay_08_latency": 11.708465721164183
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 1.7,
+  "seed": 9,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.35,
+   "cp_margin": 1.4,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.1,
+   "delay_02_latency": 11.180129019517016,
+   "delay_08_latency": 11.699319147131169
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 2.0,
+  "seed": 0,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.08222222222222222,
+   "delay_02_latency": 10.714476044662426,
+   "delay_08_latency": 11.21069048483045
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 2.0,
+  "seed": 1,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.07111111111111111,
+   "delay_02_latency": 10.688368525022755,
+   "delay_08_latency": 11.180635956466132
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 2.0,
+  "seed": 2,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.11333333333333333,
+   "delay_02_latency": 10.723477216903575,
+   "delay_08_latency": 11.217101160440532
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 2.0,
+  "seed": 3,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.09333333333333334,
+   "delay_02_latency": 10.715905596501397,
+   "delay_08_latency": 11.215358110661178
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 2.0,
+  "seed": 4,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.9,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.09333333333333334,
+   "delay_02_latency": 10.742231935644256,
+   "delay_08_latency": 11.238949898249183
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 2.0,
+  "seed": 5,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.95,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.08444444444444445,
+   "delay_02_latency": 10.70273685256429,
+   "delay_08_latency": 11.200358224966925
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 2.0,
+  "seed": 6,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 8,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.11777777777777777,
+   "delay_02_latency": 10.763970442318408,
+   "delay_08_latency": 11.26190709125618
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 2.0,
+  "seed": 7,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.1,
+   "delay_02_latency": 10.762909873885057,
+   "delay_08_latency": 11.25793902415642
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 2.0,
+  "seed": 8,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.08666666666666667,
+   "delay_02_latency": 10.726305064361894,
+   "delay_08_latency": 11.220973582865982
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 2.0,
+  "seed": 9,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.1,
+   "delay_02_latency": 10.711057009116024,
+   "delay_08_latency": 11.208295188641051
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 2.3,
+  "seed": 0,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.08222222222222222,
+   "delay_02_latency": 10.714476044662426,
+   "delay_08_latency": 11.21069048483045
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 2.3,
+  "seed": 1,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.07111111111111111,
+   "delay_02_latency": 10.688368525022755,
+   "delay_08_latency": 11.180635956466132
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 2.3,
+  "seed": 2,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.9,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.11333333333333333,
+   "delay_02_latency": 10.723477216903575,
+   "delay_08_latency": 11.217101160440532
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 2.3,
+  "seed": 3,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.9,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.09333333333333334,
+   "delay_02_latency": 10.715905596501397,
+   "delay_08_latency": 11.215358110661178
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 2.3,
+  "seed": 4,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.09333333333333334,
+   "delay_02_latency": 10.742231935644256,
+   "delay_08_latency": 11.238949898249183
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 2.3,
+  "seed": 5,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.08444444444444445,
+   "delay_02_latency": 10.70273685256429,
+   "delay_08_latency": 11.200358224966925
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 2.3,
+  "seed": 6,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 8,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.11777777777777777,
+   "delay_02_latency": 10.763970442318408,
+   "delay_08_latency": 11.26190709125618
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 2.3,
+  "seed": 7,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.1,
+   "delay_02_latency": 10.762909873885057,
+   "delay_08_latency": 11.25793902415642
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 2.3,
+  "seed": 8,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.08666666666666667,
+   "delay_02_latency": 10.726305064361894,
+   "delay_08_latency": 11.220973582865982
+  }
+ },
+ {
+  "w_E": 0.1,
+  "headroom": 2.3,
+  "seed": 9,
+  "tuned": {
+   "static_margin": 1.4,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.1,
+   "delay_02_latency": 10.711057009116024,
+   "delay_08_latency": 11.208295188641051
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 1.4,
+  "seed": 0,
+  "tuned": {
+   "static_margin": 1.3,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.1,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.15,
+    1.15,
+    1.15,
+    1.15,
+    1.15
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.2311111111111111,
+   "delay_02_latency": 13.933310921650014,
+   "delay_08_latency": 14.533310921650013
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 1.4,
+  "seed": 1,
+  "tuned": {
+   "static_margin": 1.3,
+   "reactive_margin": 1.2,
+   "cp_margin": 1.15,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.15,
+    1.15,
+    1.15,
+    1.15,
+    1.15
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.75,
+   "edge_fires_per_interval": 0.18666666666666668,
+   "delay_02_latency": 13.887368031545083,
+   "delay_08_latency": 14.487368031545083
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 1.4,
+  "seed": 2,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.2,
+   "cent_period": 8,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.5,
+   "edge_fires_per_interval": 0.41333333333333333,
+   "delay_02_latency": 13.2756515296854,
+   "delay_08_latency": 13.871462051185299
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 1.4,
+  "seed": 3,
+  "tuned": {
+   "static_margin": 1.3,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.15,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.15,
+    1.15,
+    1.15,
+    1.15,
+    1.15
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.75,
+   "edge_fires_per_interval": 0.2577777777777778,
+   "delay_02_latency": 13.969814568923484,
+   "delay_08_latency": 14.569814568923482
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 1.4,
+  "seed": 4,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.2,
+   "cp_margin": 1.2,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.4688888888888889,
+   "delay_02_latency": 13.322602070304123,
+   "delay_08_latency": 13.91894800691905
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 1.4,
+  "seed": 5,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.15,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.15,
+    1.15,
+    1.15,
+    1.15,
+    1.15
+   ],
+   "hao_gamma": 0.9,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.37333333333333335,
+   "delay_02_latency": 13.289124869877625,
+   "delay_08_latency": 13.885468568496053
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 1.4,
+  "seed": 6,
+  "tuned": {
+   "static_margin": 1.3,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.15,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.15,
+    1.15,
+    1.15,
+    1.15,
+    1.15
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.75,
+   "edge_fires_per_interval": 0.27111111111111114,
+   "delay_02_latency": 14.016803345412457,
+   "delay_08_latency": 14.616803345412457
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 1.4,
+  "seed": 7,
+  "tuned": {
+   "static_margin": 1.3,
+   "reactive_margin": 1.2,
+   "cp_margin": 1.15,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.15,
+    1.15,
+    1.15,
+    1.15,
+    1.15
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.26222222222222225,
+   "delay_02_latency": 13.997046859433823,
+   "delay_08_latency": 14.597046859433823
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 1.4,
+  "seed": 8,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.1,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.45111111111111113,
+   "delay_02_latency": 13.284023824874769,
+   "delay_08_latency": 13.880264748568859
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 1.4,
+  "seed": 9,
+  "tuned": {
+   "static_margin": 1.3,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.15,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.15,
+    1.15,
+    1.15,
+    1.15,
+    1.15
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.75,
+   "edge_fires_per_interval": 0.25333333333333335,
+   "delay_02_latency": 13.936794806991946,
+   "delay_08_latency": 14.536794806991946
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 1.7,
+  "seed": 0,
+  "tuned": {
+   "static_margin": 1.35,
+   "reactive_margin": 1.3,
+   "cp_margin": 1.3,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.3,
+    1.3,
+    1.3,
+    1.3,
+    1.3
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.12444444444444444,
+   "delay_02_latency": 10.826130832845932,
+   "delay_08_latency": 11.329242383001466
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 1.7,
+  "seed": 1,
+  "tuned": {
+   "static_margin": 1.35,
+   "reactive_margin": 1.3,
+   "cp_margin": 1.25,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.25,
+    1.25,
+    1.25,
+    1.25,
+    1.25
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.10888888888888888,
+   "delay_02_latency": 10.790304986315705,
+   "delay_08_latency": 11.291004488224017
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 1.7,
+  "seed": 2,
+  "tuned": {
+   "static_margin": 1.35,
+   "reactive_margin": 1.3,
+   "cp_margin": 1.25,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.25,
+    1.25,
+    1.25,
+    1.25,
+    1.25
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.15555555555555556,
+   "delay_02_latency": 10.834694165021205,
+   "delay_08_latency": 11.334806324431412
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 1.7,
+  "seed": 3,
+  "tuned": {
+   "static_margin": 1.35,
+   "reactive_margin": 1.3,
+   "cp_margin": 1.35,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.35,
+    1.35,
+    1.35,
+    1.35,
+    1.35
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.15555555555555556,
+   "delay_02_latency": 10.832430891968814,
+   "delay_08_latency": 11.340514548335602
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 1.7,
+  "seed": 4,
+  "tuned": {
+   "static_margin": 1.35,
+   "reactive_margin": 1.3,
+   "cp_margin": 1.35,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.35,
+    1.35,
+    1.35,
+    1.35,
+    1.35
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.14666666666666667,
+   "delay_02_latency": 10.852602608800169,
+   "delay_08_latency": 11.358324634203276
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 1.7,
+  "seed": 5,
+  "tuned": {
+   "static_margin": 1.35,
+   "reactive_margin": 1.25,
+   "cp_margin": 1.2,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.75,
+   "edge_fires_per_interval": 0.13555555555555557,
+   "delay_02_latency": 10.815838521532665,
+   "delay_08_latency": 11.32151891606816
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 1.7,
+  "seed": 6,
+  "tuned": {
+   "static_margin": 1.35,
+   "reactive_margin": 1.25,
+   "cp_margin": 1.25,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.25,
+    1.25,
+    1.25,
+    1.25,
+    1.25
+   ],
+   "hao_gamma": 0.9,
+   "hao_reserve_scale": 0.75,
+   "edge_fires_per_interval": 0.16444444444444445,
+   "delay_02_latency": 10.878070144763653,
+   "delay_08_latency": 11.384974423065044
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 1.7,
+  "seed": 7,
+  "tuned": {
+   "static_margin": 1.35,
+   "reactive_margin": 1.35,
+   "cp_margin": 1.35,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.35,
+    1.35,
+    1.35,
+    1.35,
+    1.35
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.14444444444444443,
+   "delay_02_latency": 10.880996472612013,
+   "delay_08_latency": 11.383907403575055
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 1.7,
+  "seed": 8,
+  "tuned": {
+   "static_margin": 1.35,
+   "reactive_margin": 1.25,
+   "cp_margin": 1.3,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.3,
+    1.3,
+    1.3,
+    1.3,
+    1.3
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.75,
+   "edge_fires_per_interval": 0.13555555555555557,
+   "delay_02_latency": 10.83360586622065,
+   "delay_08_latency": 11.336112532107403
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 1.7,
+  "seed": 9,
+  "tuned": {
+   "static_margin": 1.35,
+   "reactive_margin": 1.25,
+   "cp_margin": 1.2,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.75,
+   "edge_fires_per_interval": 0.14,
+   "delay_02_latency": 10.816642462019695,
+   "delay_08_latency": 11.322077001483477
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 2.0,
+  "seed": 0,
+  "tuned": {
+   "static_margin": 1.3,
+   "reactive_margin": 1.25,
+   "cp_margin": 1.1,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.15,
+    1.15,
+    1.15,
+    1.15,
+    1.15
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.2311111111111111,
+   "delay_02_latency": 10.971389583782901,
+   "delay_08_latency": 11.483046296078466
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 2.0,
+  "seed": 1,
+  "tuned": {
+   "static_margin": 1.3,
+   "reactive_margin": 1.2,
+   "cp_margin": 1.25,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.25,
+    1.25,
+    1.25,
+    1.25,
+    1.25
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.18666666666666668,
+   "delay_02_latency": 10.928002111931367,
+   "delay_08_latency": 11.439046748291233
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 2.0,
+  "seed": 2,
+  "tuned": {
+   "static_margin": 1.3,
+   "reactive_margin": 1.3,
+   "cp_margin": 1.25,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.25,
+    1.25,
+    1.25,
+    1.25,
+    1.25
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.5,
+   "edge_fires_per_interval": 0.24666666666666667,
+   "delay_02_latency": 10.982100994481357,
+   "delay_08_latency": 11.489813209130734
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 2.0,
+  "seed": 3,
+  "tuned": {
+   "static_margin": 1.3,
+   "reactive_margin": 1.25,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.9,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.2577777777777778,
+   "delay_02_latency": 10.98762850530041,
+   "delay_08_latency": 11.505398428166599
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 2.0,
+  "seed": 4,
+  "tuned": {
+   "static_margin": 1.3,
+   "reactive_margin": 1.3,
+   "cp_margin": 1.4,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.9,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.23777777777777778,
+   "delay_02_latency": 10.995142944414098,
+   "delay_08_latency": 11.51095305125711
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 2.0,
+  "seed": 5,
+  "tuned": {
+   "static_margin": 1.35,
+   "reactive_margin": 1.25,
+   "cp_margin": 1.15,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.15,
+    1.15,
+    1.15,
+    1.15,
+    1.15
+   ],
+   "hao_gamma": 0.95,
+   "hao_reserve_scale": 0.5,
+   "edge_fires_per_interval": 0.13555555555555557,
+   "delay_02_latency": 10.815838521532665,
+   "delay_08_latency": 11.32151891606816
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 2.0,
+  "seed": 6,
+  "tuned": {
+   "static_margin": 1.3,
+   "reactive_margin": 1.35,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.27111111111111114,
+   "delay_02_latency": 11.029027791304276,
+   "delay_08_latency": 11.546032037831326
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 2.0,
+  "seed": 7,
+  "tuned": {
+   "static_margin": 1.35,
+   "reactive_margin": 1.4,
+   "cp_margin": 1.4,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.4,
+    1.4,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.14444444444444443,
+   "delay_02_latency": 10.880996472612013,
+   "delay_08_latency": 11.383907403575055
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 2.0,
+  "seed": 8,
+  "tuned": {
+   "static_margin": 1.3,
+   "reactive_margin": 1.25,
+   "cp_margin": 1.35,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.35,
+    1.35,
+    1.35,
+    1.35,
+    1.35
+   ],
+   "hao_gamma": 0.95,
+   "hao_reserve_scale": 0.5,
+   "edge_fires_per_interval": 0.2511111111111111,
+   "delay_02_latency": 10.97541200722117,
+   "delay_08_latency": 11.487022652793566
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 2.0,
+  "seed": 9,
+  "tuned": {
+   "static_margin": 1.3,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.1,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.25333333333333335,
+   "delay_02_latency": 10.953869449575492,
+   "delay_08_latency": 11.468957112845448
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 2.3,
+  "seed": 0,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.1,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.41555555555555557,
+   "delay_02_latency": 11.179582958315889,
+   "delay_08_latency": 11.700544430350494
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 2.3,
+  "seed": 1,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.2,
+   "cp_margin": 1.1,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.15,
+    1.15,
+    1.15,
+    1.15,
+    1.15
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.75,
+   "edge_fires_per_interval": 0.3377777777777778,
+   "delay_02_latency": 11.126880776223999,
+   "delay_08_latency": 11.64777298097903
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 2.3,
+  "seed": 2,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.25,
+   "cp_margin": 1.15,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.15,
+    1.15,
+    1.15,
+    1.15,
+    1.15
+   ],
+   "hao_gamma": 0.9,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.41333333333333333,
+   "delay_02_latency": 11.190720782033914,
+   "delay_08_latency": 11.706609285649149
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 2.3,
+  "seed": 3,
+  "tuned": {
+   "static_margin": 1.3,
+   "reactive_margin": 1.25,
+   "cp_margin": 1.1,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.15,
+    1.15,
+    1.15,
+    1.15,
+    1.15
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.2577777777777778,
+   "delay_02_latency": 10.98762850530041,
+   "delay_08_latency": 11.505398428166599
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 2.3,
+  "seed": 4,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.25,
+   "cp_margin": 1.2,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.4688888888888889,
+   "delay_02_latency": 11.206778606215096,
+   "delay_08_latency": 11.7324843277847
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 2.3,
+  "seed": 5,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.25,
+   "cp_margin": 1.1,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1
+   ],
+   "hao_gamma": 0.95,
+   "hao_reserve_scale": 0.5,
+   "edge_fires_per_interval": 0.37333333333333335,
+   "delay_02_latency": 11.17602264485948,
+   "delay_08_latency": 11.69984189076436
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 2.3,
+  "seed": 6,
+  "tuned": {
+   "static_margin": 1.3,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.15,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.15,
+    1.15,
+    1.15,
+    1.15,
+    1.15
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.5,
+   "edge_fires_per_interval": 0.27111111111111114,
+   "delay_02_latency": 11.029027791304276,
+   "delay_08_latency": 11.546032037831326
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 2.3,
+  "seed": 7,
+  "tuned": {
+   "static_margin": 1.3,
+   "reactive_margin": 1.2,
+   "cp_margin": 1.15,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.15,
+    1.15,
+    1.15,
+    1.15,
+    1.15
+   ],
+   "hao_gamma": 0.95,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.26222222222222225,
+   "delay_02_latency": 11.032720530297148,
+   "delay_08_latency": 11.544950380017092
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 2.3,
+  "seed": 8,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.1,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.45111111111111113,
+   "delay_02_latency": 11.178926294950289,
+   "delay_08_latency": 11.699617075325897
+  }
+ },
+ {
+  "w_E": 0.2,
+  "headroom": 2.3,
+  "seed": 9,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.1,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.75,
+   "edge_fires_per_interval": 0.4533333333333333,
+   "delay_02_latency": 11.15291580372168,
+   "delay_08_latency": 11.677667361392707
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 1.4,
+  "seed": 0,
+  "tuned": {
+   "static_margin": 1.2,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.1,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.75,
+   "edge_fires_per_interval": 0.62,
+   "delay_02_latency": 12.766185459863566,
+   "delay_08_latency": 13.32893636522749
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 1.4,
+  "seed": 1,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.1,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.5,
+   "edge_fires_per_interval": 0.3377777777777778,
+   "delay_02_latency": 13.225824699686196,
+   "delay_08_latency": 13.821860180529175
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 1.4,
+  "seed": 2,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.15,
+   "cent_period": 8,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.15,
+    1.15,
+    1.15,
+    1.15,
+    1.15
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.5,
+   "edge_fires_per_interval": 0.41333333333333333,
+   "delay_02_latency": 13.2756515296854,
+   "delay_08_latency": 13.871462051185299
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 1.4,
+  "seed": 3,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.1,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.4288888888888889,
+   "delay_02_latency": 13.321204340356157,
+   "delay_08_latency": 13.917811950293734
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 1.4,
+  "seed": 4,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.1,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.4688888888888889,
+   "delay_02_latency": 13.322602070304123,
+   "delay_08_latency": 13.91894800691905
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 1.4,
+  "seed": 5,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.1,
+   "cp_margin": 1.1,
+   "cent_period": 3,
+   "cent_margin": 1.1,
+   "flat_headroom": [
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.75,
+   "edge_fires_per_interval": 0.37333333333333335,
+   "delay_02_latency": 13.289124869877625,
+   "delay_08_latency": 13.885468568496053
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 1.4,
+  "seed": 6,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.1,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.4533333333333333,
+   "delay_02_latency": 13.374605815085673,
+   "delay_08_latency": 13.971533465626383
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 1.4,
+  "seed": 7,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.1,
+   "cent_period": 8,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.4533333333333333,
+   "delay_02_latency": 13.359623365564419,
+   "delay_08_latency": 13.955795180918543
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 1.4,
+  "seed": 8,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.1,
+   "cp_margin": 1.1,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.75,
+   "edge_fires_per_interval": 0.45111111111111113,
+   "delay_02_latency": 13.284023824874769,
+   "delay_08_latency": 13.880264748568859
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 1.4,
+  "seed": 9,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.1,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.5,
+   "edge_fires_per_interval": 0.4533333333333333,
+   "delay_02_latency": 13.274993315009905,
+   "delay_08_latency": 13.871676631926707
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 1.7,
+  "seed": 0,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.1,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.41555555555555557,
+   "delay_02_latency": 11.179582958315889,
+   "delay_08_latency": 11.700544430350494
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 1.7,
+  "seed": 1,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.1,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1
+   ],
+   "hao_gamma": 0.9,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.3377777777777778,
+   "delay_02_latency": 11.126880776223999,
+   "delay_08_latency": 11.64777298097903
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 1.7,
+  "seed": 2,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.15,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.15,
+    1.15,
+    1.15,
+    1.15,
+    1.15
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.75,
+   "edge_fires_per_interval": 0.41333333333333333,
+   "delay_02_latency": 11.190720782033914,
+   "delay_08_latency": 11.706609285649149
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 1.7,
+  "seed": 3,
+  "tuned": {
+   "static_margin": 1.3,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.1,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.5,
+   "edge_fires_per_interval": 0.2577777777777778,
+   "delay_02_latency": 10.98762850530041,
+   "delay_08_latency": 11.505398428166599
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 1.7,
+  "seed": 4,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.2,
+   "cp_margin": 1.1,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.5,
+   "edge_fires_per_interval": 0.4688888888888889,
+   "delay_02_latency": 11.206778606215096,
+   "delay_08_latency": 11.7324843277847
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 1.7,
+  "seed": 5,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.1,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.5,
+   "edge_fires_per_interval": 0.37333333333333335,
+   "delay_02_latency": 11.17602264485948,
+   "delay_08_latency": 11.69984189076436
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 1.7,
+  "seed": 6,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.1,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.4533333333333333,
+   "delay_02_latency": 11.247694337498158,
+   "delay_08_latency": 11.774414516639515
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 1.7,
+  "seed": 7,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.2,
+   "cp_margin": 1.1,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.15,
+    1.15,
+    1.15,
+    1.15,
+    1.15
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.4533333333333333,
+   "delay_02_latency": 11.25624052624783,
+   "delay_08_latency": 11.777803262046092
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 1.7,
+  "seed": 8,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.1,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.5,
+   "edge_fires_per_interval": 0.45111111111111113,
+   "delay_02_latency": 11.178926294950289,
+   "delay_08_latency": 11.699617075325897
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 1.7,
+  "seed": 9,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.1,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.5,
+   "edge_fires_per_interval": 0.4533333333333333,
+   "delay_02_latency": 11.15291580372168,
+   "delay_08_latency": 11.677667361392707
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 2.0,
+  "seed": 0,
+  "tuned": {
+   "static_margin": 1.2,
+   "reactive_margin": 1.1,
+   "cp_margin": 1.1,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.75,
+   "edge_fires_per_interval": 0.62,
+   "delay_02_latency": 11.481025744033897,
+   "delay_08_latency": 12.010415970725266
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 2.0,
+  "seed": 1,
+  "tuned": {
+   "static_margin": 1.2,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.1,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1
+   ],
+   "hao_gamma": 0.95,
+   "hao_reserve_scale": 0.5,
+   "edge_fires_per_interval": 0.5977777777777777,
+   "delay_02_latency": 11.426204780680148,
+   "delay_08_latency": 11.955682919491187
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 2.0,
+  "seed": 2,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.1,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.5,
+   "edge_fires_per_interval": 0.41333333333333333,
+   "delay_02_latency": 11.190720782033914,
+   "delay_08_latency": 11.706609285649149
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 2.0,
+  "seed": 3,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.1,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.75,
+   "edge_fires_per_interval": 0.4288888888888889,
+   "delay_02_latency": 11.201322965636553,
+   "delay_08_latency": 11.727927834908595
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 2.0,
+  "seed": 4,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.1,
+   "cent_period": 5,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.5,
+   "edge_fires_per_interval": 0.4688888888888889,
+   "delay_02_latency": 11.206778606215096,
+   "delay_08_latency": 11.7324843277847
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 2.0,
+  "seed": 5,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.1,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.37333333333333335,
+   "delay_02_latency": 11.17602264485948,
+   "delay_08_latency": 11.69984189076436
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 2.0,
+  "seed": 6,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.05,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.4533333333333333,
+   "delay_02_latency": 11.247694337498158,
+   "delay_08_latency": 11.774414516639515
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 2.0,
+  "seed": 7,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.05,
+   "cent_period": 8,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.05,
+    1.05,
+    1.05,
+    1.05,
+    1.05
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.75,
+   "edge_fires_per_interval": 0.4533333333333333,
+   "delay_02_latency": 11.25624052624783,
+   "delay_08_latency": 11.777803262046092
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 2.0,
+  "seed": 8,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.1,
+   "cp_margin": 1.05,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.45111111111111113,
+   "delay_02_latency": 11.178926294950289,
+   "delay_08_latency": 11.699617075325897
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 2.0,
+  "seed": 9,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.1,
+   "cp_margin": 1.05,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.05,
+    1.05,
+    1.05,
+    1.05,
+    1.05
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.4533333333333333,
+   "delay_02_latency": 11.15291580372168,
+   "delay_08_latency": 11.677667361392707
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 2.3,
+  "seed": 0,
+  "tuned": {
+   "static_margin": 1.2,
+   "reactive_margin": 1.1,
+   "cp_margin": 1.05,
+   "cent_period": 3,
+   "cent_margin": 1.1,
+   "flat_headroom": [
+    1.05,
+    1.05,
+    1.05,
+    1.05,
+    1.05
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.5,
+   "edge_fires_per_interval": 0.62,
+   "delay_02_latency": 11.481025744033897,
+   "delay_08_latency": 12.010415970725266
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 2.3,
+  "seed": 1,
+  "tuned": {
+   "static_margin": 1.2,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.1,
+   "cent_period": 3,
+   "cent_margin": 1.1,
+   "flat_headroom": [
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.5,
+   "edge_fires_per_interval": 0.5977777777777777,
+   "delay_02_latency": 11.426204780680148,
+   "delay_08_latency": 11.955682919491187
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 2.3,
+  "seed": 2,
+  "tuned": {
+   "static_margin": 1.2,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.05,
+   "cent_period": 8,
+   "cent_margin": 1.1,
+   "flat_headroom": [
+    1.05,
+    1.05,
+    1.05,
+    1.05,
+    1.05
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.5,
+   "edge_fires_per_interval": 0.6377777777777778,
+   "delay_02_latency": 11.50486180630913,
+   "delay_08_latency": 12.02915266489475
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 2.3,
+  "seed": 3,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.05,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.05,
+    1.05,
+    1.05,
+    1.05,
+    1.05
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 0.5,
+   "edge_fires_per_interval": 0.4288888888888889,
+   "delay_02_latency": 11.201322965636553,
+   "delay_08_latency": 11.727927834908595
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 2.3,
+  "seed": 4,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.1,
+   "cp_margin": 1.05,
+   "cent_period": 5,
+   "cent_margin": 1.1,
+   "flat_headroom": [
+    1.05,
+    1.05,
+    1.05,
+    1.05,
+    1.05
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.4688888888888889,
+   "delay_02_latency": 11.206778606215096,
+   "delay_08_latency": 11.7324843277847
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 2.3,
+  "seed": 5,
+  "tuned": {
+   "static_margin": 1.2,
+   "reactive_margin": 1.1,
+   "cp_margin": 1.1,
+   "cent_period": 3,
+   "cent_margin": 1.1,
+   "flat_headroom": [
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1
+   ],
+   "hao_gamma": 0.95,
+   "hao_reserve_scale": 0.5,
+   "edge_fires_per_interval": 0.6288888888888889,
+   "delay_02_latency": 11.486851892948565,
+   "delay_08_latency": 12.018575981886634
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 2.3,
+  "seed": 6,
+  "tuned": {
+   "static_margin": 1.2,
+   "reactive_margin": 1.15,
+   "cp_margin": 1.05,
+   "cent_period": 3,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.05,
+    1.05,
+    1.05,
+    1.05,
+    1.05
+   ],
+   "hao_gamma": 0.9,
+   "hao_reserve_scale": 0.5,
+   "edge_fires_per_interval": 0.6888888888888889,
+   "delay_02_latency": 11.564686725562833,
+   "delay_08_latency": 12.10095170777813
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 2.3,
+  "seed": 7,
+  "tuned": {
+   "static_margin": 1.25,
+   "reactive_margin": 1.1,
+   "cp_margin": 1.05,
+   "cent_period": 8,
+   "cent_margin": 1.15,
+   "flat_headroom": [
+    1.05,
+    1.05,
+    1.05,
+    1.05,
+    1.05
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.4533333333333333,
+   "delay_02_latency": 11.25624052624783,
+   "delay_08_latency": 11.777803262046092
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 2.3,
+  "seed": 8,
+  "tuned": {
+   "static_margin": 1.2,
+   "reactive_margin": 1.1,
+   "cp_margin": 1.05,
+   "cent_period": 3,
+   "cent_margin": 1.1,
+   "flat_headroom": [
+    1.05,
+    1.05,
+    1.05,
+    1.05,
+    1.05
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.72,
+   "delay_02_latency": 11.48770416845952,
+   "delay_08_latency": 12.01701392518069
+  }
+ },
+ {
+  "w_E": 0.3,
+  "headroom": 2.3,
+  "seed": 9,
+  "tuned": {
+   "static_margin": 1.2,
+   "reactive_margin": 1.1,
+   "cp_margin": 1.05,
+   "cent_period": 5,
+   "cent_margin": 1.1,
+   "flat_headroom": [
+    1.05,
+    1.05,
+    1.05,
+    1.05,
+    1.05
+   ],
+   "hao_gamma": 0.85,
+   "hao_reserve_scale": 1.0,
+   "edge_fires_per_interval": 0.6844444444444444,
+   "delay_02_latency": 11.457385146551395,
+   "delay_08_latency": 11.990992110669909
+  }
+ }
+]
