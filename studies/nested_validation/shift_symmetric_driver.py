@@ -46,6 +46,8 @@ from concurrent.futures import ProcessPoolExecutor
 import numpy as np
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+if HERE not in sys.path:
+    sys.path.insert(0, HERE)
 _spec = importlib.util.spec_from_file_location(
     "hao_pra_u_sim", os.path.join(HERE, "hao_pra_u_sim.py"))
 sim = importlib.util.module_from_spec(_spec)
@@ -69,6 +71,22 @@ RESULT_SCENARIOS = ["S1a_load15", "S1b_load30", "S2_mixshift", "S3_bursts"]
 
 CAPPED_SCALE_GRID = [0.5, 0.75, 1.0]
 N_SEEDS = 10
+
+# Study 2's six schemes. The nested build adds HAO-PPO, which Study 2 did
+# not contain, and the min-max composite is normalized within whatever set
+# is scored, so the two sets give different composites by construction.
+#
+# We do NOT choose between them here. Every scheme the build offers is run,
+# and the two composites are formed at analysis time by subsetting the CSV:
+# the six-scheme composite is primary, because it is the one comparable with
+# Study 2, and the seven-scheme composite is reported beside it. Jbar is
+# set-independent and unaffected either way.
+#
+# Running only six would have been a scheme-set choice made after a crash,
+# by authors who already know from Sec. VII-C that admitting HAO-PPO removes
+# decisiveness. Running both removes the choice.
+SHIFT_SCHEMES_PRIMARY = ["Static", "Reactive", "Centralized",
+                         "CentralizedPredictive", "FlatAgent", "HAO-PRA-U"]
 FULL_METRICS = list(sim.METRICS) + ["reliability", "isolation", "overhead"]
 OUT_DIR = os.path.join(HERE, "..", "..", "results", "nested_validation")
 
@@ -136,6 +154,9 @@ def run_one(scheme, U, UHAT, seed, tuned):
     st = sim.SchemeState()
     if scheme == "HAO-PRA-U":
         sim.pretrain_hao(st, U, UHAT, tuned, seed)
+    elif scheme == "HAO-PPO":
+        sim.pretrain_ppo(st, U, UHAT, tuned, seed,
+                         episodes=tuned.get("_ppo_episodes"))
     rng = np.random.default_rng(seed + 7919)
     hist, pre, post, series = [], [], [], []
     n = len(U)
@@ -154,9 +175,21 @@ def run_one(scheme, U, UHAT, seed, tuned):
         m = sim.evaluate_interval(scheme, X, u, None)
         if scheme == "HAO-PRA-U":
             r = sim.reward_from_metrics(m)
-            sim.q_update(st, r, U[t + 1] if t + 1 < n else u, sigma)
+            # gamma MUST be passed. q_update falls back to the registered
+            # Q_GAMMA when it is None, which would silently discard the
+            # hao_gamma that tune_all_schemes just selected and run the
+            # framework untuned while every baseline ran tuned. That is the
+            # exact asymmetry this study exists to remove. The original
+            # shift_driver.py omits it correctly, because on that build the
+            # framework received no search at all.
+            sim.q_update(st, r, U[t + 1] if t + 1 < n else u, sigma,
+                         gamma=tuned.get("hao_gamma"))
             if training:
                 st.eps = max(sim.EPS_END, st.eps * sim.EPS_DECAY)
+        elif scheme == "HAO-PPO":
+            # Policy frozen after pretraining; the live pass is evaluation
+            # only, matching sim.run_scheme.
+            st.prev_util = float(m["utilization"])
         if T_PRE <= t < T_SHIFT:
             pre.append(m)
         elif t >= T_SHIFT:
@@ -206,6 +239,29 @@ def main():
     ap.add_argument("--seeds", type=int, default=N_SEEDS)
     a = ap.parse_args()
 
+    print("DEPENDENCY CHECK: every scheme in the build must be runnable")
+    need_ppo = [m for m in sim.SCHEMES if "PPO" in m]
+    if need_ppo and importlib.util.find_spec("ppo_reserve") is None:
+        print(f"  FAIL: this build contains {need_ppo}, which needs")
+        print("        ppo_reserve.py, and it is not on the import path.")
+        print()
+        print("        Copy it in, from the repository root:")
+        print("          cp studies/ppo_study/ppo_reserve.py "
+              "studies/nested_validation/")
+        print()
+        print("        Not running the PPO arm is NOT an acceptable "
+              "fallback here.")
+        print("        Amendment A1 fixes that every scheme in the build is "
+              "run and")
+        print("        that both composites are formed at analysis time, "
+              "precisely so")
+        print("        that no scheme-set choice is made after a failure. "
+              "Dropping a")
+        print("        scheme because a file is missing would be that "
+              "choice.")
+        return 2
+    print(f"  OK: {len(sim.SCHEMES)} schemes, all importable.\n")
+
     print("GENERATOR CHECK: trace extension against the frozen generator")
     if not generator_check():
         print("  FAIL: intervals 0..999 of the constructed trace do not match")
@@ -221,7 +277,24 @@ def main():
           f"post-shift {T_SHIFT}..{N_TOTAL-1}")
     print(f"  HAO multiplier grid: {CAPPED_SCALE_GRID} "
           f"(symmetric 1.40 ceiling)")
-    print("  tuner: tune_all_schemes, 9 evaluations for every scheme\n")
+    print("  tuner: tune_all_schemes, 9 evaluations for every scheme")
+    print(f"  schemes run: {len(sim.SCHEMES)} -- {sim.SCHEMES}")
+    missing = [m for m in SHIFT_SCHEMES_PRIMARY if m not in sim.SCHEMES]
+    if missing:
+        print(f"  FAIL: {missing} absent from this build, so Study 2's "
+              "scheme set")
+        print("        cannot be reconstructed from this run.")
+        return 2
+    extra = [m for m in sim.SCHEMES if m not in SHIFT_SCHEMES_PRIMARY]
+    print(f"  primary composite subsets to Study 2's six: "
+          f"{SHIFT_SCHEMES_PRIMARY}")
+    if extra:
+        print(f"  also run, reported as a secondary composite: {extra}")
+        print("    Both are formed at analysis time from the same CSV, so "
+              "no scheme-set")
+        print("    choice is made here. Jbar is set-independent and "
+              "unaffected.")
+    print()
 
     scens = ["S0_noshift"] if a.validate else \
         ["S0_noshift"] + RESULT_SCENARIOS

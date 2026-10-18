@@ -53,7 +53,7 @@ CONFIRM_SEEDS = list(range(11, 31))
 # Paste the digest of the static_edge_driver.py you are replicating here,
 # from preregistrations/hashes.txt, before freezing the registration. Leave
 # as None only if you accept that the "same code" guarantee is unchecked.
-EXPECTED_DRIVER_SHA256 = d006fe5c5fdb5b5578ccc641785e939a01fccafcaf9435c2c0394f42869fda0f
+EXPECTED_DRIVER_SHA256 = "d006fe5c5fdb5b5578ccc641785e939a01fccafcaf9435c2c0394f42869fda0f"
 
 
 def load_driver():
