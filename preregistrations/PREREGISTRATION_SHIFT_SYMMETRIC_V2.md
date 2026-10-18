@@ -8,7 +8,7 @@ as dated amendments.
 
 **Date:** 10/18/2026
 
-**Independent timestamp:** _(DOI or receipt, filled in before running)_
+**Independent timestamp:** https://doi.org/10.5281/zenodo.23459209
 
 **Supersedes:** nothing. Study 15 is void under its own registered rule and
 stays in the record as void. This is a separate study with a separate
