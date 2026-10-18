@@ -9,7 +9,7 @@ amendments.
 
 **Date:** 10/17/2026
 
-**Independent timestamp:** _(DOI or receipt from the deposit, filled in before
+**Independent timestamp:** https://doi.org/10.5281/zenodo.23444965
 running)_
 
 **Protocol:** Sec. III-A of the manuscript as amended, which requires the

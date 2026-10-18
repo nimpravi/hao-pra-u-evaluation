@@ -8,7 +8,7 @@ are appended as dated amendments.
 
 **Date:** 10/17/2026
 
-**Independent timestamp:** _(DOI or receipt, filled in before running)_
+**Independent timestamp:** https://doi.org/10.5281/zenodo.23444965
 
 ---
 
