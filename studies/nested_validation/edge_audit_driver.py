@@ -109,6 +109,14 @@ def equivalence_check(seed=0):
     rng = np.random.default_rng(seed)
     U = sim.generate_traffic(rng)
     UHAT, _ = sim.train_gru_forecasts(U, seed)
+    # Fallback guard. sim.allocate substitutes the realized demand u for any
+    # non-finite forecast, which makes every forecast-consuming scheme
+    # clairvoyant for that interval. train_gru_forecasts leaves UHAT NaN only
+    # for t < GRU_LOOKBACK (16), well inside the training window, so this
+    # must hold for every scored interval. See AMENDMENT_A7.
+    assert np.isfinite(UHAT[sim.N_TRAIN:]).all(), (
+        f"seed {seed}: non-finite forecast inside the scored window; "
+        f"the allocator would fall back to realized demand there")
     tuned = sim.tune_all_schemes(U, UHAT, seed)
 
     st_a, st_b = sim.SchemeState(), sim.SchemeState()
@@ -228,6 +236,14 @@ def run_cell(args):
     rng = np.random.default_rng(seed)
     U = sim.generate_traffic(rng)
     UHAT, _ = sim.train_gru_forecasts(U, seed)
+    # Fallback guard. sim.allocate substitutes the realized demand u for any
+    # non-finite forecast, which makes every forecast-consuming scheme
+    # clairvoyant for that interval. train_gru_forecasts leaves UHAT NaN only
+    # for t < GRU_LOOKBACK (16), well inside the training window, so this
+    # must hold for every scored interval. See AMENDMENT_A7.
+    assert np.isfinite(UHAT[sim.N_TRAIN:]).all(), (
+        f"seed {seed}: non-finite forecast inside the scored window; "
+        f"the allocator would fall back to realized demand there")
     tuned = sim.tune_all_schemes(U, UHAT, seed)
 
     rows, pslice = [], []
