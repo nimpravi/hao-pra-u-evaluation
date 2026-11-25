@@ -74,3 +74,41 @@ f0e1708754d7e93dc4ff5083620ef924ba4b54901e47254073140605498ce666  studies/predic
 53418a458715c6ca4c6dc8db995670335c135ad8d20ede9713f88315e705500b  studies/nested_validation/analyze_edge_audit.py
 e032fd8ed655d8bc3ca60183178d1253de301b471b28b1ca92a1f9245bf08739  studies/nested_validation/analyze_registered_runs.py
 fed7ee05053cb46a1b751e1e0ae1ec916f4138c9a1ea39fc315e4670ae4eed31  studies/nested_validation/edge_audit_driver.py
+
+# --- Studies 7 to 16: drivers and documents not pinned until now ---
+# Added after the fact, like the DRIVER PINS above: none of these lines is
+# an original registration. The Study 14 to 16 registrations pin only the
+# simulator (30bedec8). Each digest below is of the file as it stands at
+# commit 4417fb7 (unchanged since release 2.0.1, Zenodo 10.5281/zenodo.23459209),
+# so the git history of each file is the record of when it was frozen.
+#
+# confirm_static_edge_driver.py (Study 14) changed once after the Study 14
+# registration commit (64f4bfe): commit 4bdd815 put quotes around the
+# EXPECTED_DRIVER_SHA256 literal, without which the file does not parse.
+# shift_symmetric_driver.py (Study 15) changed in 4bdd815 under amendments
+# A1 and A2.
+d006fe5c5fdb5b5578ccc641785e939a01fccafcaf9435c2c0394f42869fda0f  studies/nested_validation/static_edge_driver.py
+3809ff09f9da20077ab153bed16fca198ac3a08710ef4629e0bf50505ed737d7  studies/nested_validation/confirm_static_edge_driver.py
+fd58592c195709d879196c66579543e0b18a893d6e497ed32e099775aba480d1  studies/nested_validation/shift_symmetric_driver.py
+3a7af6630810f024e836e9a28e2abcb5bcb7f86e6bd79a3ebd5632d3f3438b4e  studies/nested_validation/shift_symmetric_v2_driver.py
+bc92644db52da276438b7d19389227b00d1cd9e405a328a05ae4d80c2a19e112  studies/nested_validation/robustness_driver.py
+7661999659beb8eb1e3c9cf4057aab33b000ab26dda2325cd116d738ec87f686  studies/nested_validation/oracle_driver.py
+ff1f8a35b6e943160757b8d72d81994147814e99c6a5f28987257ba5260878fb  studies/nested_validation/static_oracle_driver.py
+3cd946fec5a1f397f23fd860356eb2a342b2078515d81e3e9cf9acb21c752f68  studies/ppo_study/ppo_budget_driver.py
+564bc8dd01d4150cc6efe1819854f4d1583fa70acf87c63fdd184bdeb5c4fcd7  scripts/analyze_static_edge.py
+69000c23c87d107fd6c3804f71a59a79f591617a4e0928e407f18e195a1ac09e  preregistrations/PREREGISTRATION_SHIFT_SYMMETRIC_V2.md
+894e38134a703075512eecd26b1e2ec9290e626198711d6dda53e26e3e46ff66  preregistrations/AMENDMENT_A1_SHIFT_SYMMETRIC.md
+ad89de381e8f8ea0aad60f9bb766b5ef6b40bd5c46f0b73916c76f50193b765d  preregistrations/AMENDMENT_A2_SHIFT_SYMMETRIC.md
+b525990e48eff514f38fa9fe9e17dc8d96d27f0fde9ab044aba8cfb95a19d9a5  preregistrations/AMENDMENT_A8_DEPOSIT_FORM.md
+
+# --- Known check failures (DECIDE: keep this note, or re-pin) ---
+# sha256sum -c reports FAILED for the five registration documents below.
+# Their pins are of the versions as first committed; later commits edited
+# one line each, a registration date (Amendment A5, commit 353da44; the
+# Experiment 3 document also gained its closing lines there) or the
+# independent-timestamp DOI (commit e76258b). Current digests:
+#   0ac8e205ee306caffc4d0fa89b8bcf33cec94dff70600d110bdccdc683cd13d5  preregistrations/EXPERIMENT3_PREREGISTRATION.md
+#   6fd39509f314b410555cb03e1ee1e799d38f1d94694007dc71b355a0c4f9732b  preregistrations/SHIFT_STUDY_PREREGISTRATION.md
+#   558ec5b7aab1ead461da58da98c083e5d39c8aa47d1237ae3e070a32cb7973ec  preregistrations/SWEEP_PREREGISTRATION.md
+#   adf9e6030ce91cfdda8af576294e170b6a6b2a4aedc5c8cd898f5a04b86d7396  preregistrations/PREREGISTRATION_STATIC_EDGE_CONFIRM.md
+#   2c36b6ef95797be71b083b3ff95d8c3eb1082b0c4f4c5d4847b0c0ec1fe9e22b  preregistrations/PREREGISTRATION_SHIFT_SYMMETRIC.md

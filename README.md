@@ -134,6 +134,24 @@ repository.)
 > `run_experiment3.py` run; commit them alongside the report files for a
 > complete record.
 
+### Results of Studies 14 to 16
+
+Registrations are in `preregistrations/`, archived before each run (Studies 14 and 15:
+https://doi.org/10.5281/zenodo.23444965; Study 16:
+https://doi.org/10.5281/zenodo.23459209). All files below are in
+`results/nested_validation/` and were produced by the drivers named.
+
+| Study | Status | Files | Driver |
+|---|---|---|---|
+| 14: Static+Edge confirmation on held-out seeds 11 to 30 | registered | `all_cells_confirm_edge.csv`, `tuned_params_confirm_edge.json` | `confirm_static_edge_driver.py` |
+| 15: symmetric regime shift | registered, **void** (S0 control failed); kept for the record, no result is drawn from it | `all_windows_symmetric.csv`, `recovery_curves_symmetric.csv`, `tuned_params_shift_symmetric.json` | `shift_symmetric_driver.py` |
+| 16: symmetric regime shift, corrected design | registered | `all_windows_symmetric_v2.csv`, `recovery_curves_symmetric_v2.csv`, `tuned_params_shift_symmetric_v2.json` | `shift_symmetric_v2_driver.py` |
+
+The two `tuned_params_shift_symmetric*.json` files are byte-identical.
+CONFIRM-BEFORE-COMMIT: state here why (for example, if Study 16 reused Study
+15's pre-shift tuning window and seeds unchanged), or delete this paragraph
+if that is not the reason.
+
 ---
 
 ## Paper
@@ -141,9 +159,9 @@ repository.)
 The manuscript is **not** included in this repository (publisher copyright).
 This repo holds the code, data, and pre-registrations that back the paper.
 
-> Pre-Registered Evaluation of Learned Slice Orchestration in 6G:
-> A Negative Case Study on Hierarchical Agentic Control.
-> IEEE Transactions on Network and Service Management (under review / DOI to appear).
+> A Pre-Registered Protocol for Evaluating Learned Slice Orchestration,
+> with a Case Study on Learned Reserve Control in 6G.
+> Not yet published; citation details will be added when it is.
 
 See `CITATION.cff` for citation metadata.
 
